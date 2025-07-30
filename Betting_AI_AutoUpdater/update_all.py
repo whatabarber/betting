@@ -1,14 +1,11 @@
 from prizepicks_scanner import update_prizepicks_data
 from bovada_scanner import update_bovada_data
-import os
 
-# Update data files
+# Update only the JSON files
 update_prizepicks_data()
 update_bovada_data()
 
-# Use git only if files changed
-os.system("git status")
-os.system("git add .")
-os.system("git commit -m \"Daily auto-update of data files\" || echo No changes to commit")
-os.system("git push origin main")
-print("✅ Data updated and pushed to GitHub.")
+print("✅ PrizePicks and Bovada JSON files updated locally.")
+print("🔁 Now run: git add data/props.json data/games.json")
+print("   then:    git commit -m 'Daily update'")
+print("   then:    git push origin main")
