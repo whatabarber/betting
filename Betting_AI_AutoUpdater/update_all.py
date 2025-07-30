@@ -1,11 +1,9 @@
 from prizepicks_scanner import update_prizepicks_data
 from bovada_scanner import update_bovada_data
 
-# Update only the JSON files
+# Just update the local JSON files
 update_prizepicks_data()
 update_bovada_data()
 
-print("✅ PrizePicks and Bovada JSON files updated locally.")
-print("🔁 Now run: git add data/props.json data/games.json")
-print("   then:    git commit -m 'Daily update'")
-print("   then:    git push origin main")
+print("✅ JSON files updated locally.")
+print("📂 You can now manually upload to GitHub if needed.")
