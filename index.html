@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Betting AI Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        h1 { color: #333; }
+        .section { background: #fff; padding: 20px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #eee; }
+        select { padding: 6px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>📊 Live Betting AI Dashboard</h1>
+
+    <div class="section">
+        <h2>🏈 PrizePicks Props</h2>
+        <table id="propsTable">
+            <thead>
+                <tr><th>Player</th><th>Line</th><th>Model</th><th>Edge</th><th>Commentary</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>📈 Bovada Game Lines</h2>
+        <table id="gamesTable">
+            <thead>
+                <tr><th>Matchup</th><th>Line</th><th>Sharp%</th><th>Public%</th><th>Commentary</th></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        async function loadProps() {
+            const res = await fetch('../data/props.json');
+            const data = await res.json();
+            const tbody = document.querySelector("#propsTable tbody");
+            data.forEach(p => {
+                const row = `<tr><td>${p.player}</td><td>${p.line}</td><td>${p.model}</td><td>${p.edge}</td><td>${p.commentary}</td></tr>`;
+                tbody.innerHTML += row;
+            });
+        }
+
+        async function loadGames() {
+            const res = await fetch('../data/games.json');
+            const data = await res.json();
+            const tbody = document.querySelector("#gamesTable tbody");
+            data.forEach(g => {
+                const row = `<tr><td>${g.matchup}</td><td>${g.line}</td><td>${g.sharp_pct}</td><td>${g.public_pct}</td><td>${g.commentary}</td></tr>`;
+                tbody.innerHTML += row;
+            });
+        }
+
+        loadProps();
+        loadGames();
+    </script>
+</body>
+</html>
