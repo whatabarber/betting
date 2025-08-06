@@ -180,5 +180,27 @@
       "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
     },
     "status": "PARTIAL"
+  },
+  {
+    "timestamp": "2025-08-06T01:40:50.556582",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 6
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 10
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 14.44,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
   }
 ]
