@@ -12,7 +12,7 @@ class LiveBovadaAnalyzer:
         self.bovada_odds_api = "https://www.bovada.lv/services/sports/event/v2/events/A/description"
         
         # Alternative odds APIs for verification
-        self.odds_api_key = "YOUR_ODDS_API_KEY"  # Add your odds API key
+        self.odds_api_key = "8dfaf92c77d8fc5ebea9ba17af5b5518"  # Add your odds API key
         self.odds_api = "https://api.the-odds-api.com/v4/sports"
         
         # Headers to avoid blocking
