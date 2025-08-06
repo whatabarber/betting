@@ -1,0 +1,10 @@
+[
+  {
+    "matchup": "Error loading data",
+    "line": "Check logs",
+    "sharp_pct": "N/A",
+    "public_pct": "N/A",
+    "commentary": "Error: expected 'except' or 'finally' block (bovada_scanner.py, line 94)",
+    "sport": "System"
+  }
+]
