@@ -136,5 +136,27 @@
       "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
     },
     "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T01:23:11.173143",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 0
+      },
+      "bovada": {
+        "success": false,
+        "error": "expected 'except' or 'finally' block (bovada_scanner.py, line 94)",
+        "games_count": 0
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 4.77,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "PARTIAL"
   }
 ]
