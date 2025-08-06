@@ -1,0 +1,96 @@
+[
+  {
+    "timestamp": "2025-08-06T00:19:13.930689",
+    "results": {
+      "prizepicks": {
+        "success": false,
+        "error": "unterminated string literal (detected at line 306) (prizepicks_scanner.py, line 306)",
+        "props_count": 0
+      },
+      "bovada": {
+        "success": false,
+        "error": "unterminated string literal (detected at line 312) (bovada_scanner.py, line 312)",
+        "games_count": 0
+      },
+      "total_runtime": 0.09,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "PARTIAL"
+  },
+  {
+    "timestamp": "2025-08-06T00:24:13.512278",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 1
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 1
+      },
+      "total_runtime": 13.72,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T00:27:35.828837",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 1
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 1
+      },
+      "total_runtime": 13.54,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T00:35:56.834330",
+    "results": {
+      "prizepicks": {
+        "success": false,
+        "error": "name 'get_data_path' is not defined",
+        "props_count": 0
+      },
+      "bovada": {
+        "success": false,
+        "error": "name 'get_data_path' is not defined",
+        "games_count": 0
+      },
+      "total_runtime": 13.83,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "PARTIAL"
+  },
+  {
+    "timestamp": "2025-08-06T00:49:21.062498",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 9249
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 10
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 13.56,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  }
+]
