@@ -92,5 +92,27 @@
       "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
     },
     "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T01:01:11.910712",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 9295
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 10
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 14.37,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
   }
 ]
