@@ -22,71 +22,16 @@ def get_data_path():
     data_path.mkdir(exist_ok=True)
     return data_path
 
-def setup_github_auth():
-    """Set up GitHub authentication with token"""
-    print("\n🔑 GITHUB AUTHENTICATION SETUP")
-    print("-" * 50)
-    
-    # Check if token is in environment variable
-    token = os.getenv('GITHUB_TOKEN')
-    if token:
-        print("✅ Found GITHUB_TOKEN environment variable")
-        return token
-    
-    # Check if there's a token file
-    token_file = Path(__file__).parent / ".github_token"
-    if token_file.exists():
-        try:
-            with open(token_file, 'r') as f:
-                token = f.read().strip()
-            print("✅ Found token in .github_token file")
-            return token
-        except:
-            pass
-    
-    # Prompt user for token
-    print("🔑 GitHub Personal Access Token not found.")
-    print("💡 You can either:")
-    print("   1. Set GITHUB_TOKEN environment variable")
-    print("   2. Create a .github_token file with your token")
-    print("   3. Enter it now (will be saved to .github_token)")
-    
-    token = input("\n🔑 Enter your GitHub token (or press Enter to skip): ").strip()
-    
-    if token:
-        # Save token to file for future use
-        try:
-            with open(token_file, 'w') as f:
-                f.write(token)
-            print("✅ Token saved to .github_token file")
-            
-            # Add .github_token to .gitignore to keep it secure
-            gitignore_file = Path(__file__).parent / ".gitignore"
-            gitignore_content = ""
-            if gitignore_file.exists():
-                with open(gitignore_file, 'r') as f:
-                    gitignore_content = f.read()
-            
-            if ".github_token" not in gitignore_content:
-                with open(gitignore_file, 'a') as f:
-                    f.write("\n.github_token\n")
-                print("✅ Added .github_token to .gitignore")
-                
-        except Exception as e:
-            print(f"⚠️ Could not save token: {e}")
-        
-        return token
-    
-    return None
-
 def push_to_github():
-    """Auto-push updated JSON files to GitHub with token authentication"""
+    """Auto-push updated JSON files to GitHub"""
     try:
         print("\n🚀 PUSHING TO GITHUB...")
-        print("-" * 50)
+        print("-" * 5)
         
         # Get current directory (your project root)
         project_root = Path(__file__).parent.absolute()
+        
+        # Change to project directory
         os.chdir(project_root)
         
         # Check if this is a git repository
@@ -94,44 +39,9 @@ def push_to_github():
             print("❌ Not a git repository. Initialize with 'git init' first.")
             return False
         
-        # Set up authentication
-        token = setup_github_auth()
-        
-        # Get remote URL
-        try:
-            result = subprocess.run(["git", "remote", "get-url", "origin"], 
-                                  capture_output=True, text=True, check=True)
-            remote_url = result.stdout.strip()
-            print(f"📡 Remote URL: {remote_url}")
-        except subprocess.CalledProcessError:
-            print("❌ No remote 'origin' found. Set up your GitHub repository first.")
-            return False
-        
-        # If we have a token, update the remote URL to use it
-        if token:
-            # Extract username and repo from URL
-            if "github.com/" in remote_url:
-                # Handle both SSH and HTTPS URLs
-                if remote_url.startswith("git@github.com:"):
-                    # Convert SSH to HTTPS with token
-                    repo_path = remote_url.replace("git@github.com:", "").replace(".git", "")
-                    new_url = f"https://{token}@github.com/{repo_path}.git"
-                elif remote_url.startswith("https://github.com/"):
-                    # Add token to existing HTTPS URL
-                    repo_path = remote_url.replace("https://github.com/", "").replace(".git", "")
-                    new_url = f"https://{token}@github.com/{repo_path}.git"
-                elif ":" in remote_url and "@github.com" in remote_url:
-                    # URL already has credentials, keep as is
-                    new_url = remote_url
-                else:
-                    new_url = remote_url
-                
-                # Update remote URL temporarily
-                subprocess.run(["git", "remote", "set-url", "origin", new_url], check=False)
-                print("✅ Updated remote URL with authentication")
-        
         # Add the JSON files
         data_path = get_data_path()
+        subprocess.run(["git", "add", str(data_path / "*.json")], check=False)
         subprocess.run(["git", "add", str(data_path / "props.json")], check=False)
         subprocess.run(["git", "add", str(data_path / "games.json")], check=False)
         subprocess.run(["git", "add", str(data_path / "update_log.json")], check=False)
@@ -147,20 +57,8 @@ def push_to_github():
         if result.returncode == 0:
             print("✅ Files committed successfully")
             
-            # Push to GitHub (handle upstream branch setup)
-            push_result = subprocess.run(["git", "push"], capture_output=True, text=True)
-            
-            # If push fails due to no upstream, set it up
-            if push_result.returncode != 0 and "no upstream branch" in push_result.stderr:
-                print("🔧 Setting up upstream branch...")
-                # Get current branch name
-                branch_result = subprocess.run(["git", "branch", "--show-current"], 
-                                             capture_output=True, text=True)
-                current_branch = branch_result.stdout.strip() if branch_result.returncode == 0 else "master"
-                
-                # Set upstream and push
-                push_result = subprocess.run(["git", "push", "--set-upstream", "origin", current_branch], 
-                                           capture_output=True, text=True)
+            # Push to GitHub
+            push_result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
             
             if push_result.returncode == 0:
                 print("🚀 Successfully pushed to GitHub!")
@@ -168,8 +66,7 @@ def push_to_github():
                 return True
             else:
                 print(f"❌ Push failed: {push_result.stderr}")
-                if "authentication" in push_result.stderr.lower():
-                    print("💡 Authentication failed. Check your GitHub token.")
+                print("💡 Make sure you're connected to GitHub and have push permissions")
                 return False
         else:
             if "nothing to commit" in result.stdout:
@@ -189,9 +86,9 @@ def push_to_github():
 def enhanced_update_all():
     """Enhanced update script with error handling and logging"""
     
-    print("🚀" * 40)
+    print("🚀" * 5)
     print(f"LIVE BETTING DATA UPDATE - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("🚀" * 40)
+    print("🚀" * 5)
     
     # Get the correct data path
     data_path = get_data_path()
@@ -208,7 +105,7 @@ def enhanced_update_all():
     
     # Update PrizePicks data
     print("\n🎯 UPDATING PRIZEPICKS DATA...")
-    print("-" * 50)
+    print("-" * 5)
     try:
         from prizepicks_scanner import update_prizepicks_data
         update_prizepicks_data()
@@ -246,7 +143,7 @@ def enhanced_update_all():
     
     # Update Bovada data
     print("\n📈 UPDATING BOVADA DATA...")
-    print("-" * 50)
+    print("-" * 5)
     try:
         from bovada_scanner import update_bovada_data
         update_bovada_data()
@@ -398,7 +295,87 @@ def check_data_freshness(data_path: Path):
     except Exception as e:
         print(f"❌ Error checking file freshness: {e}")
 
-# Main execution
+def setup_git_repo():
+    """Helper function to set up git repository"""
+    print("\n🔧 GIT SETUP HELPER")
+    print("-" * 50)
+    print("To enable auto-push to GitHub, make sure you have:")
+    print("1. ✅ git init (initialize repository)")
+    print("2. ✅ git remote add origin <your-github-repo-url>")
+    print("3. ✅ git branch -M main")
+    print("4. ✅ GitHub authentication set up")
+    print("\nExample commands:")
+    print("git init")
+    print("git remote add origin https://github.com/yourusername/your-repo.git")
+    print("git add .")
+    print("git commit -m 'Initial commit'")
+    print("git branch -M main")
+    print("git push -u origin main")
+
+def auto_retry_failed():
+    """Retry failed updates after a delay"""
+    print("\n🔄 AUTO-RETRY ENABLED")
+    print("Will retry failed updates in 30 seconds...")
+    time.sleep(30)
+    
+    print("\n🔄 RETRYING FAILED UPDATES...")
+    enhanced_update_all()
+
+def diagnose_git_setup():
+    """Diagnose git setup issues"""
+    print("\n🔧 DIAGNOSING GIT SETUP...")
+    print("-" * 50)
+    
+    project_root = Path(__file__).parent.absolute()
+    os.chdir(project_root)
+    
+    # Check if git repo
+    git_exists = (project_root / ".git").exists()
+    print(f"📁 Git repository: {'✅ Yes' if git_exists else '❌ No - run: git init'}")
+    
+    if not git_exists:
+        return
+    
+    # Check remote
+    try:
+        result = subprocess.run(["git", "remote", "-v"], capture_output=True, text=True)
+        if result.stdout.strip():
+            print(f"📡 Git remotes:\n{result.stdout}")
+        else:
+            print("❌ No git remote set up")
+            print("💡 Run: git remote add origin https://github.com/USERNAME/REPO.git")
+    except:
+        print("❌ Could not check git remotes")
+    
+    # Check current branch
+    try:
+        result = subprocess.run(["git", "branch", "--show-current"], capture_output=True, text=True)
+        current_branch = result.stdout.strip()
+        print(f"🌿 Current branch: {current_branch}")
+    except:
+        print("❌ Could not check current branch")
+    
+    # Check git status
+    try:
+        result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if result.stdout.strip():
+            print(f"📝 Uncommitted changes:\n{result.stdout}")
+        else:
+            print("✅ Working directory clean")
+    except:
+        print("❌ Could not check git status")
+    
+    # Check last commit
+    try:
+        result = subprocess.run(["git", "log", "--oneline", "-1"], capture_output=True, text=True)
+        if result.stdout.strip():
+            print(f"📄 Last commit: {result.stdout.strip()}")
+        else:
+            print("❌ No commits found")
+    except:
+        print("❌ Could not check commit history")
+
+# Add this to the main execution section
 if __name__ == "__main__":
     # Get data path first
     data_path = get_data_path()
@@ -406,8 +383,19 @@ if __name__ == "__main__":
     # Check current data freshness
     check_data_freshness(data_path)
     
+    # Add git diagnostics
+    diagnose_git_setup()
+    
     # Run main update
     results = enhanced_update_all()
+    
+    # Auto-retry if needed (optional)
+    success_rate = sum([results["prizepicks"]["success"], results["bovada"]["success"]]) / 2 * 100
+    
+    if success_rate < 100:
+        retry = input(f"\n🤔 Success rate: {success_rate:.0f}%. Retry failed updates? (y/n): ")
+        if retry.lower() == 'y':
+            auto_retry_failed()
 
 # For external calls (your current usage)
 def update_all():
@@ -426,3 +414,6 @@ def update_all():
         
     except Exception as e:
         print(f"❌ Update failed: {e}")
+
+# Keep your original simple version available
+update_prizepicks_data = update_all  # Backwards compatibility

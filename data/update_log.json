@@ -180,5 +180,291 @@
       "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
     },
     "status": "PARTIAL"
+  },
+  {
+    "timestamp": "2025-08-06T01:40:50.556582",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 6
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 10
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 14.44,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T02:02:23.838897",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 0
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 5.11,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T02:04:58.741924",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 6
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 4.3,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T02:09:35.882792",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 4.67,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-06T02:15:06.382730",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 4.69,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-11T14:20:28.257094",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 25.72,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-12T23:44:25.143577",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 36.72,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-13T00:41:12.470230",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 53.69,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-13T00:52:52.681456",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 5.97,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-13T00:57:49.411930",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 20.69,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-13T01:04:09.769919",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 20.22,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-13T01:13:09.404787",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 42.64,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-13T01:23:12.129725",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 4.89,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
   }
 ]
