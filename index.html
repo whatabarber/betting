@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatabarber's Live Betting AI Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .refresh-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .refresh-btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        .props-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+        
+        .prop-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .prop-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .prop-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .player-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .confidence-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .confidence-high { background: #22c55e; }
+        .confidence-good { background: #3b82f6; }
+        .confidence-medium { background: #f59e0b; }
+        .confidence-low { background: #ef4444; }
+        
+        .prop-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .prop-stat {
+            text-align: center;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        
+        .prop-stat-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .prop-stat-value {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .edge-positive { color: #22c55e; }
+        .edge-negative { color: #ef4444; }
+        
+        .recommendation {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .commentary {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.4;
+            font-style: italic;
+        }
+        
+        .games-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .games-table th,
+        .games-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .games-table th {
+            background: #f8fafc;
+            font-weight: 600;
+            color: #374151;
+        }
+        
+        .games-table tr:hover {
+            background: #f8fafc;
+        }
+        
+        .sharp-percentage {
+            font-weight: bold;
+        }
+        
+        .sharp-high { color: #22c55e; }
+        .sharp-medium { color: #f59e0b; }
+        .sharp-low { color: #ef4444; }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .error {
+            background: #fef2f2;
+            color: #dc2626;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #dc2626;
+        }
+        
+        .last-update {
+            font-size: 0.8rem;
+            color: #666;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .props-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Live Betting AI Dashboard</h1>
+            <p>Advanced NFL Analytics & Sharp Money Intelligence</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>🔥 SMASH Plays</h3>
+                <div class="stat-number" id="smashPlays">0</div>
+                <div class="stat-label">High Confidence</div>
+            </div>
+            <div class="stat-card">
+                <h3>✅ Good Plays</h3>
+                <div class="stat-number" id="goodPlays">0</div>
+                <div class="stat-label">Solid Value</div>
+            </div>
+            <div class="stat-card">
+                <h3>📊 Total Props</h3>
+                <div class="stat-number" id="totalProps">0</div>
+                <div class="stat-label">NFL Analysis</div>
+            </div>
+            <div class="stat-card">
+                <h3>💰 Sharp Games</h3>
+                <div class="stat-number" id="sharpGames">0</div>
+                <div class="stat-label">65%+ Professional</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    🏈 NFL PrizePicks - AI Analysis
+                </h2>
+                <button class="refresh-btn" onclick="loadProps()">🔄 Refresh</button>
+            </div>
+            <div id="propsContainer">
+                <div class="loading">Loading NFL props...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    📈 Sharp Money Game Analysis
+                </h2>
+                <button class="refresh-btn" onclick="loadGames()">🔄 Refresh</button>
+            </div>
+            <div id="gamesContainer">
+                <div class="loading">Loading game data...</div>
+            </div>
+        </div>
+
+        <div class="last-update" id="lastUpdate">
+            Last updated: Loading...
+        </div>
+    </div>
+
+    <script>
+        let propsData = [];
+        let gamesData = [];
+
+        async function loadProps() {
+            try {
+                console.log('Loading props...');
+                const response = await fetch('./data/props.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                propsData = await response.json();
+                console.log('Props data:', propsData);
+                displayProps();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading props:', error);
+                document.getElementById('propsContainer').innerHTML = 
+                    `<div class="error">❌ Error loading props: ${error.message}</div>`;
+            }
+        }
+
+        async function loadGames() {
+            try {
+                console.log('Loading games...');
+                const response = await fetch('./data/games.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                gamesData = await response.json();
+                console.log('Games data:', gamesData);
+                displayGames();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading games:', error);
+                document.getElementById('gamesContainer').innerHTML = 
+                    `<div class="error">❌ Error loading games: ${error.message}</div>`;
+            }
+        }
+
+        function displayProps() {
+            const container = document.getElementById('propsContainer');
+            
+            if (!propsData || propsData.length === 0) {
+                container.innerHTML = '<div class="loading">No NFL props available</div>';
+                return;
+            }
+
+            const propsHTML = propsData.map(prop => {
+                // Handle different prop data formats
+                const player = prop.player || 'Unknown Player';
+                const line = prop.display_line || prop.line || 'N/A';
+                const modelProjection = prop.model_projection || prop.model || 'N/A';
+                const edge = prop.edge_pct || prop.edge || 0;
+                const recommendation = prop.recommendation || generateRecommendation(edge);
+                const commentary = prop.commentary || generateCommentary(prop);
+                const confidence = prop.confidence_score || 50;
+                
+                const edgeClass = edge > 0 ? 'edge-positive' : 'edge-negative';
+                const confidenceClass = getConfidenceClass(confidence);
+                
+                return `
+                    <div class="prop-card">
+                        <div class="prop-header">
+                            <div class="player-name">${player}</div>
+                            <div class="confidence-badge ${confidenceClass}">
+                                ${confidence}/100
+                            </div>
+                        </div>
+                        
+                        <div class="prop-details">
+                            <div class="prop-stat">
+                                <div class="prop-stat-label">Line</div>
+                                <div class="prop-stat-value">${line}</div>
+                            </div>
+                            <div class="prop-stat">
+                                <div class="prop-stat-label">Model</div>
+                                <div class="prop-stat-value">${modelProjection}</div>
+                            </div>
+                            <div class="prop-stat">
+                                <div class="prop-stat-label">Edge</div>
+                                <div class="prop-stat-value ${edgeClass}">${edge > 0 ? '+' : ''}${edge}%</div>
+                            </div>
+                            <div class="prop-stat">
+                                <div class="prop-stat-label">Team</div>
+                                <div class="prop-stat-value">${prop.team || 'N/A'}</div>
+                            </div>
+                        </div>
+                        
+                        <div class="recommendation">
+                            ${recommendation}
+                        </div>
+                        
+                        <div class="commentary">
+                            💡 ${commentary}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = `<div class="props-grid">${propsHTML}</div>`;
+        }
+
+        function displayGames() {
+            const container = document.getElementById('gamesContainer');
+            
+            if (!gamesData || gamesData.length === 0) {
+                container.innerHTML = '<div class="loading">No games available</div>';
+                return;
+            }
+
+            const gamesHTML = `
+                <table class="games-table">
+                    <thead>
+                        <tr>
+                            <th>🏈 Matchup</th>
+                            <th>📊 Line</th>
+                            <th>💰 Sharp %</th>
+                            <th>👥 Public %</th>
+                            <th>🎯 Total</th>
+                            <th>📈 Recommendation</th>
+                            <th>💬 Analysis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${gamesData.map(game => {
+                            const sharpPct = parseInt(game.sharp_pct?.replace('%', '')) || 50;
+                            const sharpClass = sharpPct >= 70 ? 'sharp-high' : sharpPct >= 60 ? 'sharp-medium' : 'sharp-low';
+                            
+                            return `
+                                <tr>
+                                    <td><strong>${game.matchup || 'Unknown vs Unknown'}</strong></td>
+                                    <td>${game.line || 'N/A'}</td>
+                                    <td><span class="sharp-percentage ${sharpClass}">${game.sharp_pct || '50%'}</span></td>
+                                    <td>${game.public_pct || '50%'}</td>
+                                    <td>${game.total || 'N/A'}</td>
+                                    <td>${game.recommendation || 'No recommendation'}</td>
+                                    <td>${game.commentary || 'No analysis available'}</td>
+                                </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            container.innerHTML = gamesHTML;
+        }
+
+        function updateStats() {
+            // Update prop stats
+            const smashPlays = propsData.filter(p => 
+                (p.recommendation && p.recommendation.includes('SMASH')) || 
+                Math.abs(p.edge_pct || p.edge || 0) >= 10
+            ).length;
+            
+            const goodPlays = propsData.filter(p => 
+                (p.confidence_score || 50) >= 70
+            ).length;
+            
+            // Update game stats  
+            const sharpGames = gamesData.filter(g => 
+                parseInt(g.sharp_pct?.replace('%', '')) >= 65
+            ).length;
+
+            document.getElementById('smashPlays').textContent = smashPlays;
+            document.getElementById('goodPlays').textContent = goodPlays;
+            document.getElementById('totalProps').textContent = propsData.length;
+            document.getElementById('sharpGames').textContent = sharpGames;
+            
+            // Update timestamp
+            document.getElementById('lastUpdate').textContent = 
+                `Last updated: ${new Date().toLocaleString()}`;
+        }
+
+        function getConfidenceClass(confidence) {
+            if (confidence >= 80) return 'confidence-high';
+            if (confidence >= 70) return 'confidence-good';  
+            if (confidence >= 60) return 'confidence-medium';
+            return 'confidence-low';
+        }
+
+        function generateRecommendation(edge) {
+            const edgeNum = parseFloat(edge) || 0;
+            if (edgeNum >= 10) return '🔥 SMASH OVER - Strong Edge';
+            if (edgeNum <= -10) return '🔥 SMASH UNDER - Strong Edge';
+            if (edgeNum >= 5) return '✅ OVER - Good Value';
+            if (edgeNum <= -5) return '✅ UNDER - Good Value';
+            if (edgeNum > 0) return '💡 Lean OVER';
+            if (edgeNum < 0) return '💡 Lean UNDER';
+            return '😐 Neutral - No Edge';
+        }
+
+        function generateCommentary(prop) {
+            const edge = prop.edge_pct || prop.edge || 0;
+            const player = prop.player || 'Player';
+            const confidence = prop.confidence_score || 50;
+            
+            if (Math.abs(edge) >= 10) {
+                return `Strong ${edge > 0 ? 'OVER' : 'UNDER'} play with ${Math.abs(edge).toFixed(1)}% model edge. High confidence recommendation.`;
+            } else if (Math.abs(edge) >= 5) {
+                return `Good value ${edge > 0 ? 'OVER' : 'UNDER'} with ${Math.abs(edge).toFixed(1)}% edge. Model projects favorable outcome.`;
+            } else if (confidence >= 70) {
+                return `High confidence play. Model shows ${confidence}/100 confidence in projection.`;
+            } else {
+                return `Model analysis suggests ${edge > 0 ? 'slight over' : 'slight under'} lean. Monitor for line movement.`;
+            }
+        }
+
+        // Auto-refresh every 5 minutes
+        setInterval(() => {
+            loadProps();
+            loadGames();
+        }, 300000);
+
+        // Initial load
+        window.addEventListener('load', () => {
+            loadProps();
+            loadGames();
+        });
+    </script>
+</body>
+</html>
