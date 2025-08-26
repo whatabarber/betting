@@ -488,5 +488,44 @@
       "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
     },
     "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-25T07:59:19.481377",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 3
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": true,
+        "error": null
+      },
+      "total_runtime": 38.26,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pptest\\data"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-08-26T16:58:57.916579",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 21616
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 10
+      },
+      "total_runtime": 18.79
+    },
+    "status": "SUCCESS"
   }
 ]
