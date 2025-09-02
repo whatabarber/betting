@@ -5,8 +5,8 @@
     "home_team": "Philadelphia Eagles",
     "sport": "NFL",
     "start_time": "2025-09-05T00:21:00Z",
-    "line": "\u00b17.4",
-    "total": "O/U 47.4",
+    "line": "\u00b18.2",
+    "total": "O/U 47.5",
     "moneyline": "No ML available",
     "sharp_pct": "65%",
     "public_pct": "35%",
@@ -17,7 +17,7 @@
     "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479070"
+    "last_updated": "2025-09-02T10:09:58.633919"
   },
   {
     "matchup": "Kansas City Chiefs @ Los Angeles Chargers",
@@ -37,7 +37,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479140"
+    "last_updated": "2025-09-02T10:09:58.633994"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Atlanta Falcons",
@@ -45,19 +45,19 @@
     "home_team": "Atlanta Falcons",
     "sport": "NFL",
     "start_time": "2025-09-07T17:00:00Z",
-    "line": "\u00b12.2",
-    "total": "O/U 47.4",
+    "line": "\u00b12.5",
+    "total": "O/U 47.5",
     "moneyline": "No ML available",
-    "sharp_pct": "75%",
-    "public_pct": "25%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479186"
+    "last_updated": "2025-09-02T10:09:58.634067"
   },
   {
     "matchup": "Carolina Panthers @ Jacksonville Jaguars",
@@ -65,8 +65,8 @@
     "home_team": "Jacksonville Jaguars",
     "sport": "NFL",
     "start_time": "2025-09-07T17:00:00Z",
-    "line": "\u00b13.0",
-    "total": "O/U 46.5",
+    "line": "\u00b13.5",
+    "total": "O/U 46.4",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
@@ -77,7 +77,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479221"
+    "last_updated": "2025-09-02T10:09:58.634111"
   },
   {
     "matchup": "New York Giants @ Washington Commanders",
@@ -85,28 +85,8 @@
     "home_team": "Washington Commanders",
     "sport": "NFL",
     "start_time": "2025-09-07T17:00:00Z",
-    "line": "\u00b16.1",
+    "line": "\u00b15.9",
     "total": "O/U 45.5",
-    "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479254"
-  },
-  {
-    "matchup": "Arizona Cardinals @ New Orleans Saints",
-    "away_team": "Arizona Cardinals",
-    "home_team": "New Orleans Saints",
-    "sport": "NFL",
-    "start_time": "2025-09-07T17:01:00Z",
-    "line": "\u00b16.2",
-    "total": "O/U 42.4",
     "moneyline": "No ML available",
     "sharp_pct": "75%",
     "public_pct": "25%",
@@ -117,76 +97,16 @@
     "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479288"
+    "last_updated": "2025-09-02T10:09:58.634153"
   },
   {
-    "matchup": "Cincinnati Bengals @ Cleveland Browns",
-    "away_team": "Cincinnati Bengals",
-    "home_team": "Cleveland Browns",
+    "matchup": "Arizona Cardinals @ New Orleans Saints",
+    "away_team": "Arizona Cardinals",
+    "home_team": "New Orleans Saints",
     "sport": "NFL",
     "start_time": "2025-09-07T17:01:00Z",
-    "line": "\u00b15.9",
-    "total": "O/U 47.5",
-    "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479319"
-  },
-  {
-    "matchup": "Miami Dolphins @ Indianapolis Colts",
-    "away_team": "Miami Dolphins",
-    "home_team": "Indianapolis Colts",
-    "sport": "NFL",
-    "start_time": "2025-09-07T17:01:00Z",
-    "line": "\u00b11.5",
-    "total": "O/U 46.8",
-    "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479350"
-  },
-  {
-    "matchup": "Las Vegas Raiders @ New England Patriots",
-    "away_team": "Las Vegas Raiders",
-    "home_team": "New England Patriots",
-    "sport": "NFL",
-    "start_time": "2025-09-07T17:01:00Z",
-    "line": "\u00b12.8",
-    "total": "O/U 42.6",
-    "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479382"
-  },
-  {
-    "matchup": "Pittsburgh Steelers @ New York Jets",
-    "away_team": "Pittsburgh Steelers",
-    "home_team": "New York Jets",
-    "sport": "NFL",
-    "start_time": "2025-09-07T17:01:00Z",
-    "line": "\u00b13.0",
-    "total": "O/U 38.1",
+    "line": "\u00b16.5",
+    "total": "O/U 43.0",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
@@ -197,7 +117,87 @@
     "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479413"
+    "last_updated": "2025-09-02T10:09:58.634194"
+  },
+  {
+    "matchup": "Cincinnati Bengals @ Cleveland Browns",
+    "away_team": "Cincinnati Bengals",
+    "home_team": "Cleveland Browns",
+    "sport": "NFL",
+    "start_time": "2025-09-07T17:01:00Z",
+    "line": "\u00b15.5",
+    "total": "O/U 47.5",
+    "moneyline": "No ML available",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634235"
+  },
+  {
+    "matchup": "Miami Dolphins @ Indianapolis Colts",
+    "away_team": "Miami Dolphins",
+    "home_team": "Indianapolis Colts",
+    "sport": "NFL",
+    "start_time": "2025-09-07T17:01:00Z",
+    "line": "\u00b11.2",
+    "total": "O/U 47.1",
+    "moneyline": "No ML available",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
+    "sharp_total_pct": "60%",
+    "public_total_pct": "40%",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
+    "commentary": "Moderate sharp action on point spread. Some professional total action. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634278"
+  },
+  {
+    "matchup": "Las Vegas Raiders @ New England Patriots",
+    "away_team": "Las Vegas Raiders",
+    "home_team": "New England Patriots",
+    "sport": "NFL",
+    "start_time": "2025-09-07T17:01:00Z",
+    "line": "\u00b12.6",
+    "total": "O/U 43.5",
+    "moneyline": "No ML available",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634316"
+  },
+  {
+    "matchup": "Pittsburgh Steelers @ New York Jets",
+    "away_team": "Pittsburgh Steelers",
+    "home_team": "New York Jets",
+    "sport": "NFL",
+    "start_time": "2025-09-07T17:01:00Z",
+    "line": "\u00b12.8",
+    "total": "O/U 38.4",
+    "moneyline": "No ML available",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634352"
   },
   {
     "matchup": "Tennessee Titans @ Denver Broncos",
@@ -206,7 +206,7 @@
     "sport": "NFL",
     "start_time": "2025-09-07T20:06:00Z",
     "line": "\u00b17.8",
-    "total": "O/U 41.6",
+    "total": "O/U 42.5",
     "moneyline": "No ML available",
     "sharp_pct": "65%",
     "public_pct": "35%",
@@ -217,7 +217,7 @@
     "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479445"
+    "last_updated": "2025-09-02T10:09:58.634393"
   },
   {
     "matchup": "San Francisco 49ers @ Seattle Seahawks",
@@ -226,86 +226,6 @@
     "sport": "NFL",
     "start_time": "2025-09-07T20:06:00Z",
     "line": "\u00b12.5",
-    "total": "O/U 44.2",
-    "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479475"
-  },
-  {
-    "matchup": "Detroit Lions @ Green Bay Packers",
-    "away_team": "Detroit Lions",
-    "home_team": "Green Bay Packers",
-    "sport": "NFL",
-    "start_time": "2025-09-07T20:26:00Z",
-    "line": "\u00b12.5",
-    "total": "O/U 48.6",
-    "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479506"
-  },
-  {
-    "matchup": "Houston Texans @ Los Angeles Rams",
-    "away_team": "Houston Texans",
-    "home_team": "Los Angeles Rams",
-    "sport": "NFL",
-    "start_time": "2025-09-07T20:26:00Z",
-    "line": "\u00b12.5",
-    "total": "O/U 44.0",
-    "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479537"
-  },
-  {
-    "matchup": "Baltimore Ravens @ Buffalo Bills",
-    "away_team": "Baltimore Ravens",
-    "home_team": "Buffalo Bills",
-    "sport": "NFL",
-    "start_time": "2025-09-08T00:21:00Z",
-    "line": "\u00b11.1",
-    "total": "O/U 51.8",
-    "moneyline": "No ML available",
-    "sharp_pct": "75%",
-    "public_pct": "25%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
-    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Strong professional money detected on spread. Some professional total action. Analysis based on live odds from 4 sources.",
-    "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479569"
-  },
-  {
-    "matchup": "Minnesota Vikings @ Chicago Bears",
-    "away_team": "Minnesota Vikings",
-    "home_team": "Chicago Bears",
-    "sport": "NFL",
-    "start_time": "2025-09-09T00:16:00Z",
-    "line": "\u00b11.5",
     "total": "O/U 43.5",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
@@ -317,7 +237,87 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479600"
+    "last_updated": "2025-09-02T10:09:58.634434"
+  },
+  {
+    "matchup": "Detroit Lions @ Green Bay Packers",
+    "away_team": "Detroit Lions",
+    "home_team": "Green Bay Packers",
+    "sport": "NFL",
+    "start_time": "2025-09-07T20:26:00Z",
+    "line": "\u00b12.5",
+    "total": "O/U 47.1",
+    "moneyline": "No ML available",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
+    "sharp_total_pct": "60%",
+    "public_total_pct": "40%",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
+    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634474"
+  },
+  {
+    "matchup": "Houston Texans @ Los Angeles Rams",
+    "away_team": "Houston Texans",
+    "home_team": "Los Angeles Rams",
+    "sport": "NFL",
+    "start_time": "2025-09-07T20:26:00Z",
+    "line": "\u00b12.9",
+    "total": "O/U 43.9",
+    "moneyline": "No ML available",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
+    "sharp_total_pct": "60%",
+    "public_total_pct": "40%",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
+    "commentary": "Moderate sharp action on point spread. Some professional total action. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634514"
+  },
+  {
+    "matchup": "Baltimore Ravens @ Buffalo Bills",
+    "away_team": "Baltimore Ravens",
+    "home_team": "Buffalo Bills",
+    "sport": "NFL",
+    "start_time": "2025-09-08T00:21:00Z",
+    "line": "\u00b11.2",
+    "total": "O/U 50.6",
+    "moneyline": "No ML available",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634562"
+  },
+  {
+    "matchup": "Minnesota Vikings @ Chicago Bears",
+    "away_team": "Minnesota Vikings",
+    "home_team": "Chicago Bears",
+    "sport": "NFL",
+    "start_time": "2025-09-09T00:16:00Z",
+    "line": "\u00b11.5",
+    "total": "O/U 44.0",
+    "moneyline": "No ML available",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
+    "sharp_total_pct": "60%",
+    "public_total_pct": "40%",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
+    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
+    "confidence": "\ud83d\udd25 HIGH",
+    "bookmaker_count": 4,
+    "last_updated": "2025-09-02T10:09:58.634597"
   },
   {
     "matchup": "Washington Commanders @ Green Bay Packers",
@@ -336,8 +336,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479620"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634626"
   },
   {
     "matchup": "Cleveland Browns @ Baltimore Ravens",
@@ -356,8 +356,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479641"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634653"
   },
   {
     "matchup": "Buffalo Bills @ New York Jets",
@@ -365,19 +365,19 @@
     "home_team": "New York Jets",
     "sport": "NFL",
     "start_time": "2025-09-14T17:00:00Z",
-    "line": "\u00b18.5",
+    "line": "\u00b18.3",
     "total": "O/U 44.5",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.479663"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634681"
   },
   {
     "matchup": "Chicago Bears @ Detroit Lions",
@@ -385,19 +385,19 @@
     "home_team": "Detroit Lions",
     "sport": "NFL",
     "start_time": "2025-09-14T17:00:00Z",
-    "line": "\u00b14.5",
+    "line": "\u00b14.8",
     "total": "O/U 48.5",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
+    "sharp_pct": "75%",
+    "public_pct": "25%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479681"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634708"
   },
   {
     "matchup": "Jacksonville Jaguars @ Cincinnati Bengals",
@@ -406,7 +406,7 @@
     "sport": "NFL",
     "start_time": "2025-09-14T17:00:00Z",
     "line": "\u00b15.5",
-    "total": "O/U 49.5",
+    "total": "O/U 49.3",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
@@ -416,8 +416,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479697"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634737"
   },
   {
     "matchup": "New York Giants @ Dallas Cowboys",
@@ -436,8 +436,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479713"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634766"
   },
   {
     "matchup": "Los Angeles Rams @ Tennessee Titans",
@@ -445,19 +445,19 @@
     "home_team": "Tennessee Titans",
     "sport": "NFL",
     "start_time": "2025-09-14T17:00:00Z",
-    "line": "\u00b15.5",
+    "line": "\u00b15.3",
     "total": "O/U 45.5",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479730"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634808"
   },
   {
     "matchup": "New England Patriots @ Miami Dolphins",
@@ -465,19 +465,19 @@
     "home_team": "Miami Dolphins",
     "sport": "NFL",
     "start_time": "2025-09-14T17:00:00Z",
-    "line": "\u00b12.5",
-    "total": "O/U 45.5",
+    "line": "\u00b12.7",
+    "total": "O/U 45.3",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479746"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634837"
   },
   {
     "matchup": "San Francisco 49ers @ New Orleans Saints",
@@ -496,8 +496,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479761"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634864"
   },
   {
     "matchup": "Seattle Seahawks @ Pittsburgh Steelers",
@@ -506,18 +506,18 @@
     "sport": "NFL",
     "start_time": "2025-09-14T17:00:00Z",
     "line": "\u00b12.5",
-    "total": "O/U 42.5",
+    "total": "O/U 41.8",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
-    "sharp_total_pct": "50%",
-    "public_total_pct": "50%",
+    "sharp_total_pct": "60%",
+    "public_total_pct": "40%",
     "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
+    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479779"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634892"
   },
   {
     "matchup": "Carolina Panthers @ Arizona Cardinals",
@@ -525,19 +525,19 @@
     "home_team": "Arizona Cardinals",
     "sport": "NFL",
     "start_time": "2025-09-14T20:05:00Z",
-    "line": "\u00b14.5",
+    "line": "\u00b14.8",
     "total": "O/U 46.5",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
+    "sharp_pct": "75%",
+    "public_pct": "25%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479802"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634920"
   },
   {
     "matchup": "Denver Broncos @ Indianapolis Colts",
@@ -556,8 +556,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479819"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.634946"
   },
   {
     "matchup": "Philadelphia Eagles @ Kansas City Chiefs",
@@ -577,7 +577,7 @@
     "commentary": "Moderate sharp action on point spread. Some professional total action. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.479851"
+    "last_updated": "2025-09-02T10:09:58.634979"
   },
   {
     "matchup": "Atlanta Falcons @ Minnesota Vikings",
@@ -596,8 +596,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479869"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.635010"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Houston Texans",
@@ -605,19 +605,19 @@
     "home_team": "Houston Texans",
     "sport": "NFL",
     "start_time": "2025-09-15T23:00:00Z",
-    "line": "\u00b11.5",
+    "line": "\u00b11.7",
     "total": "O/U 46.5",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Analysis based on live odds from 4 sources.",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479885"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.635038"
   },
   {
     "matchup": "Los Angeles Chargers @ Las Vegas Raiders",
@@ -636,8 +636,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479922"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.635067"
   },
   {
     "matchup": "Miami Dolphins @ Buffalo Bills",
@@ -657,7 +657,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479940"
+    "last_updated": "2025-09-02T10:09:58.635087"
   },
   {
     "matchup": "Atlanta Falcons @ Carolina Panthers",
@@ -677,7 +677,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479956"
+    "last_updated": "2025-09-02T10:09:58.635107"
   },
   {
     "matchup": "Cincinnati Bengals @ Minnesota Vikings",
@@ -697,7 +697,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479972"
+    "last_updated": "2025-09-02T10:09:58.635129"
   },
   {
     "matchup": "Green Bay Packers @ Cleveland Browns",
@@ -717,7 +717,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.479988"
+    "last_updated": "2025-09-02T10:09:58.635147"
   },
   {
     "matchup": "Houston Texans @ Jacksonville Jaguars",
@@ -737,7 +737,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480005"
+    "last_updated": "2025-09-02T10:09:58.635166"
   },
   {
     "matchup": "Indianapolis Colts @ Tennessee Titans",
@@ -756,8 +756,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480032"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635186"
   },
   {
     "matchup": "Las Vegas Raiders @ Washington Commanders",
@@ -777,7 +777,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480050"
+    "last_updated": "2025-09-02T10:09:58.635219"
   },
   {
     "matchup": "Los Angeles Rams @ Philadelphia Eagles",
@@ -797,7 +797,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480067"
+    "last_updated": "2025-09-02T10:09:58.635237"
   },
   {
     "matchup": "Pittsburgh Steelers @ New England Patriots",
@@ -817,7 +817,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480086"
+    "last_updated": "2025-09-02T10:09:58.635257"
   },
   {
     "matchup": "New York Jets @ Tampa Bay Buccaneers",
@@ -837,7 +837,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480103"
+    "last_updated": "2025-09-02T10:09:58.635275"
   },
   {
     "matchup": "Denver Broncos @ Los Angeles Chargers",
@@ -857,7 +857,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480119"
+    "last_updated": "2025-09-02T10:09:58.635296"
   },
   {
     "matchup": "New Orleans Saints @ Seattle Seahawks",
@@ -877,7 +877,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480136"
+    "last_updated": "2025-09-02T10:09:58.635316"
   },
   {
     "matchup": "Arizona Cardinals @ San Francisco 49ers",
@@ -896,8 +896,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480158"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635337"
   },
   {
     "matchup": "Dallas Cowboys @ Chicago Bears",
@@ -917,7 +917,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480174"
+    "last_updated": "2025-09-02T10:09:58.635357"
   },
   {
     "matchup": "Kansas City Chiefs @ New York Giants",
@@ -937,7 +937,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480191"
+    "last_updated": "2025-09-02T10:09:58.635377"
   },
   {
     "matchup": "Detroit Lions @ Baltimore Ravens",
@@ -957,7 +957,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480208"
+    "last_updated": "2025-09-02T10:09:58.635397"
   },
   {
     "matchup": "Seattle Seahawks @ Arizona Cardinals",
@@ -976,8 +976,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480230"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635418"
   },
   {
     "matchup": "Minnesota Vikings @ Pittsburgh Steelers",
@@ -985,19 +985,19 @@
     "home_team": "Pittsburgh Steelers",
     "sport": "NFL",
     "start_time": "2025-09-28T13:30:00Z",
-    "line": "\u00b11.8",
+    "line": "\u00b11.5",
     "total": "O/U 42.5",
     "moneyline": "No ML available",
-    "sharp_pct": "75%",
-    "public_pct": "25%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 3,
-    "last_updated": "2025-08-28T23:51:49.480259"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635439"
   },
   {
     "matchup": "Washington Commanders @ Atlanta Falcons",
@@ -1017,7 +1017,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480277"
+    "last_updated": "2025-09-02T10:09:58.635458"
   },
   {
     "matchup": "New Orleans Saints @ Buffalo Bills",
@@ -1037,7 +1037,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480296"
+    "last_updated": "2025-09-02T10:09:58.635478"
   },
   {
     "matchup": "Carolina Panthers @ New England Patriots",
@@ -1057,7 +1057,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480313"
+    "last_updated": "2025-09-02T10:09:58.635499"
   },
   {
     "matchup": "Cleveland Browns @ Detroit Lions",
@@ -1077,7 +1077,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480329"
+    "last_updated": "2025-09-02T10:09:58.635522"
   },
   {
     "matchup": "Tennessee Titans @ Houston Texans",
@@ -1085,19 +1085,19 @@
     "home_team": "Houston Texans",
     "sport": "NFL",
     "start_time": "2025-09-28T17:00:00Z",
-    "line": "\u00b16.2",
+    "line": "\u00b16.0",
     "total": "O/U 44.5",
     "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480353"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635541"
   },
   {
     "matchup": "Los Angeles Chargers @ New York Giants",
@@ -1117,7 +1117,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480370"
+    "last_updated": "2025-09-02T10:09:58.635561"
   },
   {
     "matchup": "Philadelphia Eagles @ Tampa Bay Buccaneers",
@@ -1137,7 +1137,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480386"
+    "last_updated": "2025-09-02T10:09:58.635599"
   },
   {
     "matchup": "Indianapolis Colts @ Los Angeles Rams",
@@ -1157,7 +1157,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480404"
+    "last_updated": "2025-09-02T10:09:58.635620"
   },
   {
     "matchup": "Jacksonville Jaguars @ San Francisco 49ers",
@@ -1177,7 +1177,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480422"
+    "last_updated": "2025-09-02T10:09:58.635640"
   },
   {
     "matchup": "Baltimore Ravens @ Kansas City Chiefs",
@@ -1196,8 +1196,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480446"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635659"
   },
   {
     "matchup": "Chicago Bears @ Las Vegas Raiders",
@@ -1217,7 +1217,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480464"
+    "last_updated": "2025-09-02T10:09:58.635677"
   },
   {
     "matchup": "Green Bay Packers @ Dallas Cowboys",
@@ -1237,7 +1237,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480487"
+    "last_updated": "2025-09-02T10:09:58.635703"
   },
   {
     "matchup": "New York Jets @ Miami Dolphins",
@@ -1256,8 +1256,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480509"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635724"
   },
   {
     "matchup": "Cincinnati Bengals @ Denver Broncos",
@@ -1277,7 +1277,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480526"
+    "last_updated": "2025-09-02T10:09:58.635745"
   },
   {
     "matchup": "San Francisco 49ers @ Los Angeles Rams",
@@ -1296,8 +1296,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480548"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635766"
   },
   {
     "matchup": "Minnesota Vikings @ Cleveland Browns",
@@ -1305,19 +1305,19 @@
     "home_team": "Cleveland Browns",
     "sport": "NFL",
     "start_time": "2025-10-05T13:30:00Z",
-    "line": "\u00b16.8",
-    "total": "O/U 41.2",
+    "line": "\u00b17.0",
+    "total": "O/U 41.5",
     "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Moderate sharp action on point spread. Some professional total action. Analysis based on live odds from 4 sources.",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 3,
-    "last_updated": "2025-08-28T23:51:49.480581"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.635786"
   },
   {
     "matchup": "Houston Texans @ Baltimore Ravens",
@@ -1337,7 +1337,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480600"
+    "last_updated": "2025-09-02T10:09:58.635805"
   },
   {
     "matchup": "Miami Dolphins @ Carolina Panthers",
@@ -1357,7 +1357,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480617"
+    "last_updated": "2025-09-02T10:09:58.635827"
   },
   {
     "matchup": "Dallas Cowboys @ New York Jets",
@@ -1377,7 +1377,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480633"
+    "last_updated": "2025-09-02T10:09:58.635848"
   },
   {
     "matchup": "Denver Broncos @ Philadelphia Eagles",
@@ -1397,7 +1397,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480649"
+    "last_updated": "2025-09-02T10:09:58.635868"
   },
   {
     "matchup": "Las Vegas Raiders @ Indianapolis Colts",
@@ -1417,7 +1417,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480666"
+    "last_updated": "2025-09-02T10:09:58.635887"
   },
   {
     "matchup": "New York Giants @ New Orleans Saints",
@@ -1437,7 +1437,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480682"
+    "last_updated": "2025-09-02T10:09:58.635907"
   },
   {
     "matchup": "Tennessee Titans @ Arizona Cardinals",
@@ -1457,7 +1457,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480698"
+    "last_updated": "2025-09-02T10:09:58.635925"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Seattle Seahawks",
@@ -1477,7 +1477,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480719"
+    "last_updated": "2025-09-02T10:09:58.635947"
   },
   {
     "matchup": "Detroit Lions @ Cincinnati Bengals",
@@ -1497,7 +1497,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480736"
+    "last_updated": "2025-09-02T10:09:58.635967"
   },
   {
     "matchup": "Washington Commanders @ Los Angeles Chargers",
@@ -1517,7 +1517,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480752"
+    "last_updated": "2025-09-02T10:09:58.635985"
   },
   {
     "matchup": "New England Patriots @ Buffalo Bills",
@@ -1536,8 +1536,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480775"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636005"
   },
   {
     "matchup": "Kansas City Chiefs @ Jacksonville Jaguars",
@@ -1557,7 +1557,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480794"
+    "last_updated": "2025-09-02T10:09:58.636034"
   },
   {
     "matchup": "Philadelphia Eagles @ New York Giants",
@@ -1565,19 +1565,19 @@
     "home_team": "New York Giants",
     "sport": "NFL",
     "start_time": "2025-10-10T00:15:00Z",
-    "line": "\u00b16.8",
+    "line": "\u00b17.0",
     "total": "O/U 43.5",
     "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480816"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636056"
   },
   {
     "matchup": "Denver Broncos @ New York Jets",
@@ -1586,7 +1586,7 @@
     "sport": "NFL",
     "start_time": "2025-10-12T12:31:00Z",
     "line": "\u00b16.5",
-    "total": "O/U 42.2",
+    "total": "O/U 42.0",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
@@ -1596,8 +1596,8 @@
     "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
     "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 3,
-    "last_updated": "2025-08-28T23:51:49.480848"
+    "bookmaker_count": 2,
+    "last_updated": "2025-09-02T10:09:58.636087"
   },
   {
     "matchup": "Arizona Cardinals @ Indianapolis Colts",
@@ -1617,7 +1617,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480867"
+    "last_updated": "2025-09-02T10:09:58.636107"
   },
   {
     "matchup": "Los Angeles Rams @ Baltimore Ravens",
@@ -1637,7 +1637,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480883"
+    "last_updated": "2025-09-02T10:09:58.636126"
   },
   {
     "matchup": "Dallas Cowboys @ Carolina Panthers",
@@ -1657,7 +1657,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480900"
+    "last_updated": "2025-09-02T10:09:58.636150"
   },
   {
     "matchup": "Cleveland Browns @ Pittsburgh Steelers",
@@ -1666,18 +1666,18 @@
     "sport": "NFL",
     "start_time": "2025-10-12T17:00:00Z",
     "line": "\u00b16.5",
-    "total": "O/U 42.0",
+    "total": "O/U 42.5",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
     "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.480922"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636171"
   },
   {
     "matchup": "Seattle Seahawks @ Jacksonville Jaguars",
@@ -1697,7 +1697,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480939"
+    "last_updated": "2025-09-02T10:09:58.636189"
   },
   {
     "matchup": "Los Angeles Chargers @ Miami Dolphins",
@@ -1717,7 +1717,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480956"
+    "last_updated": "2025-09-02T10:09:58.636208"
   },
   {
     "matchup": "San Francisco 49ers @ Tampa Bay Buccaneers",
@@ -1737,7 +1737,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480973"
+    "last_updated": "2025-09-02T10:09:58.636229"
   },
   {
     "matchup": "Tennessee Titans @ Las Vegas Raiders",
@@ -1757,7 +1757,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.480989"
+    "last_updated": "2025-09-02T10:09:58.636251"
   },
   {
     "matchup": "Cincinnati Bengals @ Green Bay Packers",
@@ -1777,7 +1777,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481008"
+    "last_updated": "2025-09-02T10:09:58.636270"
   },
   {
     "matchup": "New England Patriots @ New Orleans Saints",
@@ -1797,7 +1797,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481025"
+    "last_updated": "2025-09-02T10:09:58.636289"
   },
   {
     "matchup": "Detroit Lions @ Kansas City Chiefs",
@@ -1805,19 +1805,19 @@
     "home_team": "Kansas City Chiefs",
     "sport": "NFL",
     "start_time": "2025-10-13T00:20:00Z",
-    "line": "\u00b12.8",
+    "line": "\u00b13.0",
     "total": "O/U 48.5",
     "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481049"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636310"
   },
   {
     "matchup": "Buffalo Bills @ Atlanta Falcons",
@@ -1837,7 +1837,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481068"
+    "last_updated": "2025-09-02T10:09:58.636332"
   },
   {
     "matchup": "Chicago Bears @ Washington Commanders",
@@ -1857,7 +1857,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481085"
+    "last_updated": "2025-09-02T10:09:58.636369"
   },
   {
     "matchup": "Pittsburgh Steelers @ Cincinnati Bengals",
@@ -1876,8 +1876,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481111"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636391"
   },
   {
     "matchup": "Los Angeles Rams @ Jacksonville Jaguars",
@@ -1885,19 +1885,19 @@
     "home_team": "Jacksonville Jaguars",
     "sport": "NFL",
     "start_time": "2025-10-19T12:31:00Z",
-    "line": "\u00b13.8",
+    "line": "\u00b13.5",
     "total": "O/U 47.5",
     "moneyline": "No ML available",
-    "sharp_pct": "75%",
-    "public_pct": "25%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 4,
-    "last_updated": "2025-08-28T23:51:49.481147"
+    "bookmaker_count": 2,
+    "last_updated": "2025-09-02T10:09:58.636419"
   },
   {
     "matchup": "Carolina Panthers @ New York Jets",
@@ -1917,7 +1917,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481165"
+    "last_updated": "2025-09-02T10:09:58.636440"
   },
   {
     "matchup": "New Orleans Saints @ Chicago Bears",
@@ -1937,7 +1937,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481182"
+    "last_updated": "2025-09-02T10:09:58.636462"
   },
   {
     "matchup": "Miami Dolphins @ Cleveland Browns",
@@ -1957,7 +1957,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481201"
+    "last_updated": "2025-09-02T10:09:58.636481"
   },
   {
     "matchup": "Las Vegas Raiders @ Kansas City Chiefs",
@@ -1976,8 +1976,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481224"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636501"
   },
   {
     "matchup": "Philadelphia Eagles @ Minnesota Vikings",
@@ -1997,7 +1997,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481242"
+    "last_updated": "2025-09-02T10:09:58.636523"
   },
   {
     "matchup": "New England Patriots @ Tennessee Titans",
@@ -2017,7 +2017,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481260"
+    "last_updated": "2025-09-02T10:09:58.636544"
   },
   {
     "matchup": "New York Giants @ Denver Broncos",
@@ -2037,7 +2037,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481278"
+    "last_updated": "2025-09-02T10:09:58.636563"
   },
   {
     "matchup": "Indianapolis Colts @ Los Angeles Chargers",
@@ -2057,7 +2057,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481295"
+    "last_updated": "2025-09-02T10:09:58.636582"
   },
   {
     "matchup": "Green Bay Packers @ Arizona Cardinals",
@@ -2077,7 +2077,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481312"
+    "last_updated": "2025-09-02T10:09:58.636604"
   },
   {
     "matchup": "Washington Commanders @ Dallas Cowboys",
@@ -2097,7 +2097,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481329"
+    "last_updated": "2025-09-02T10:09:58.636624"
   },
   {
     "matchup": "Atlanta Falcons @ San Francisco 49ers",
@@ -2117,7 +2117,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481348"
+    "last_updated": "2025-09-02T10:09:58.636643"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Detroit Lions",
@@ -2137,7 +2137,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481365"
+    "last_updated": "2025-09-02T10:09:58.636664"
   },
   {
     "matchup": "Houston Texans @ Seattle Seahawks",
@@ -2157,7 +2157,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481383"
+    "last_updated": "2025-09-02T10:09:58.636685"
   },
   {
     "matchup": "Minnesota Vikings @ Los Angeles Chargers",
@@ -2177,7 +2177,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481400"
+    "last_updated": "2025-09-02T10:09:58.636705"
   },
   {
     "matchup": "Miami Dolphins @ Atlanta Falcons",
@@ -2197,7 +2197,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481419"
+    "last_updated": "2025-09-02T10:09:58.636725"
   },
   {
     "matchup": "Chicago Bears @ Baltimore Ravens",
@@ -2217,7 +2217,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481437"
+    "last_updated": "2025-09-02T10:09:58.636746"
   },
   {
     "matchup": "Buffalo Bills @ Carolina Panthers",
@@ -2237,7 +2237,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481455"
+    "last_updated": "2025-09-02T10:09:58.636768"
   },
   {
     "matchup": "New York Jets @ Cincinnati Bengals",
@@ -2257,7 +2257,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481472"
+    "last_updated": "2025-09-02T10:09:58.636789"
   },
   {
     "matchup": "Cleveland Browns @ New England Patriots",
@@ -2277,7 +2277,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481490"
+    "last_updated": "2025-09-02T10:09:58.636808"
   },
   {
     "matchup": "San Francisco 49ers @ Houston Texans",
@@ -2297,7 +2297,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481507"
+    "last_updated": "2025-09-02T10:09:58.636830"
   },
   {
     "matchup": "New York Giants @ Philadelphia Eagles",
@@ -2316,8 +2316,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481532"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636850"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ New Orleans Saints",
@@ -2336,8 +2336,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481556"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636868"
   },
   {
     "matchup": "Dallas Cowboys @ Denver Broncos",
@@ -2357,7 +2357,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481575"
+    "last_updated": "2025-09-02T10:09:58.636889"
   },
   {
     "matchup": "Tennessee Titans @ Indianapolis Colts",
@@ -2376,8 +2376,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481599"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.636912"
   },
   {
     "matchup": "Green Bay Packers @ Pittsburgh Steelers",
@@ -2397,7 +2397,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481618"
+    "last_updated": "2025-09-02T10:09:58.636932"
   },
   {
     "matchup": "Washington Commanders @ Kansas City Chiefs",
@@ -2417,7 +2417,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481636"
+    "last_updated": "2025-09-02T10:09:58.636954"
   },
   {
     "matchup": "Baltimore Ravens @ Miami Dolphins",
@@ -2437,7 +2437,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481654"
+    "last_updated": "2025-09-02T10:09:58.636975"
   },
   {
     "matchup": "Atlanta Falcons @ New England Patriots",
@@ -2457,7 +2457,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481671"
+    "last_updated": "2025-09-02T10:09:58.636999"
   },
   {
     "matchup": "Carolina Panthers @ Green Bay Packers",
@@ -2477,7 +2477,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481688"
+    "last_updated": "2025-09-02T10:09:58.637019"
   },
   {
     "matchup": "Chicago Bears @ Cincinnati Bengals",
@@ -2497,7 +2497,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481706"
+    "last_updated": "2025-09-02T10:09:58.637039"
   },
   {
     "matchup": "Denver Broncos @ Houston Texans",
@@ -2517,7 +2517,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481724"
+    "last_updated": "2025-09-02T10:09:58.637061"
   },
   {
     "matchup": "Minnesota Vikings @ Detroit Lions",
@@ -2536,8 +2536,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481748"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637080"
   },
   {
     "matchup": "Indianapolis Colts @ Pittsburgh Steelers",
@@ -2557,7 +2557,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481766"
+    "last_updated": "2025-09-02T10:09:58.637101"
   },
   {
     "matchup": "Los Angeles Chargers @ Tennessee Titans",
@@ -2577,7 +2577,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481784"
+    "last_updated": "2025-09-02T10:09:58.637132"
   },
   {
     "matchup": "San Francisco 49ers @ New York Giants",
@@ -2597,7 +2597,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481802"
+    "last_updated": "2025-09-02T10:09:58.637154"
   },
   {
     "matchup": "Jacksonville Jaguars @ Las Vegas Raiders",
@@ -2617,7 +2617,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481821"
+    "last_updated": "2025-09-02T10:09:58.637174"
   },
   {
     "matchup": "New Orleans Saints @ Los Angeles Rams",
@@ -2637,7 +2637,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481840"
+    "last_updated": "2025-09-02T10:09:58.637195"
   },
   {
     "matchup": "Kansas City Chiefs @ Buffalo Bills",
@@ -2656,8 +2656,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481865"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637226"
   },
   {
     "matchup": "Seattle Seahawks @ Washington Commanders",
@@ -2677,7 +2677,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481885"
+    "last_updated": "2025-09-02T10:09:58.637246"
   },
   {
     "matchup": "Arizona Cardinals @ Dallas Cowboys",
@@ -2697,7 +2697,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481902"
+    "last_updated": "2025-09-02T10:09:58.637268"
   },
   {
     "matchup": "Las Vegas Raiders @ Denver Broncos",
@@ -2716,8 +2716,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.481940"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637290"
   },
   {
     "matchup": "Atlanta Falcons @ Indianapolis Colts",
@@ -2726,7 +2726,7 @@
     "sport": "NFL",
     "start_time": "2025-11-09T14:31:00Z",
     "line": "\u00b11.5",
-    "total": "O/U 45.2",
+    "total": "O/U 45.0",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
@@ -2736,8 +2736,8 @@
     "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
     "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 3,
-    "last_updated": "2025-08-28T23:51:49.481975"
+    "bookmaker_count": 2,
+    "last_updated": "2025-09-02T10:09:58.637319"
   },
   {
     "matchup": "Baltimore Ravens @ Minnesota Vikings",
@@ -2757,7 +2757,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.481995"
+    "last_updated": "2025-09-02T10:09:58.637342"
   },
   {
     "matchup": "Buffalo Bills @ Miami Dolphins",
@@ -2776,8 +2776,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482019"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637365"
   },
   {
     "matchup": "New Orleans Saints @ Carolina Panthers",
@@ -2796,8 +2796,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482045"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637385"
   },
   {
     "matchup": "New York Giants @ Chicago Bears",
@@ -2817,7 +2817,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482065"
+    "last_updated": "2025-09-02T10:09:58.637405"
   },
   {
     "matchup": "Cleveland Browns @ New York Jets",
@@ -2837,7 +2837,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482085"
+    "last_updated": "2025-09-02T10:09:58.637425"
   },
   {
     "matchup": "Jacksonville Jaguars @ Houston Texans",
@@ -2856,8 +2856,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482112"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637447"
   },
   {
     "matchup": "New England Patriots @ Tampa Bay Buccaneers",
@@ -2877,7 +2877,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482132"
+    "last_updated": "2025-09-02T10:09:58.637468"
   },
   {
     "matchup": "Arizona Cardinals @ Seattle Seahawks",
@@ -2896,8 +2896,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482159"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637487"
   },
   {
     "matchup": "Detroit Lions @ Washington Commanders",
@@ -2917,7 +2917,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482180"
+    "last_updated": "2025-09-02T10:09:58.637508"
   },
   {
     "matchup": "Los Angeles Rams @ San Francisco 49ers",
@@ -2936,8 +2936,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482205"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637530"
   },
   {
     "matchup": "Pittsburgh Steelers @ Los Angeles Chargers",
@@ -2957,7 +2957,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482227"
+    "last_updated": "2025-09-02T10:09:58.637549"
   },
   {
     "matchup": "Philadelphia Eagles @ Green Bay Packers",
@@ -2976,8 +2976,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482252"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637568"
   },
   {
     "matchup": "New York Jets @ New England Patriots",
@@ -2996,8 +2996,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482280"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637591"
   },
   {
     "matchup": "Washington Commanders @ Miami Dolphins",
@@ -3006,18 +3006,18 @@
     "sport": "NFL",
     "start_time": "2025-11-16T14:30:00Z",
     "line": "\u00b14.5",
-    "total": "O/U 48.8",
+    "total": "O/U 48.5",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
     "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 3,
-    "last_updated": "2025-08-28T23:51:49.482314"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637613"
   },
   {
     "matchup": "Carolina Panthers @ Atlanta Falcons",
@@ -3037,7 +3037,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482335"
+    "last_updated": "2025-09-02T10:09:58.637632"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Buffalo Bills",
@@ -3057,7 +3057,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482356"
+    "last_updated": "2025-09-02T10:09:58.637652"
   },
   {
     "matchup": "Chicago Bears @ Minnesota Vikings",
@@ -3077,7 +3077,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482376"
+    "last_updated": "2025-09-02T10:09:58.637673"
   },
   {
     "matchup": "Cincinnati Bengals @ Pittsburgh Steelers",
@@ -3097,7 +3097,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482395"
+    "last_updated": "2025-09-02T10:09:58.637695"
   },
   {
     "matchup": "Green Bay Packers @ New York Giants",
@@ -3117,7 +3117,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482415"
+    "last_updated": "2025-09-02T10:09:58.637714"
   },
   {
     "matchup": "Houston Texans @ Tennessee Titans",
@@ -3136,8 +3136,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482440"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.637735"
   },
   {
     "matchup": "Los Angeles Chargers @ Jacksonville Jaguars",
@@ -3157,7 +3157,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482461"
+    "last_updated": "2025-09-02T10:09:58.637754"
   },
   {
     "matchup": "San Francisco 49ers @ Arizona Cardinals",
@@ -3177,7 +3177,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482481"
+    "last_updated": "2025-09-02T10:09:58.637772"
   },
   {
     "matchup": "Seattle Seahawks @ Los Angeles Rams",
@@ -3197,7 +3197,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482501"
+    "last_updated": "2025-09-02T10:09:58.637789"
   },
   {
     "matchup": "Baltimore Ravens @ Cleveland Browns",
@@ -3217,7 +3217,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482521"
+    "last_updated": "2025-09-02T10:09:58.637806"
   },
   {
     "matchup": "Kansas City Chiefs @ Denver Broncos",
@@ -3237,7 +3237,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482542"
+    "last_updated": "2025-09-02T10:09:58.637822"
   },
   {
     "matchup": "Detroit Lions @ Philadelphia Eagles",
@@ -3257,7 +3257,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482562"
+    "last_updated": "2025-09-02T10:09:58.637841"
   },
   {
     "matchup": "Dallas Cowboys @ Las Vegas Raiders",
@@ -3277,7 +3277,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482582"
+    "last_updated": "2025-09-02T10:09:58.637858"
   },
   {
     "matchup": "Buffalo Bills @ Houston Texans",
@@ -3297,7 +3297,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482603"
+    "last_updated": "2025-09-02T10:09:58.637893"
   },
   {
     "matchup": "New York Jets @ Baltimore Ravens",
@@ -3317,7 +3317,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482624"
+    "last_updated": "2025-09-02T10:09:58.637913"
   },
   {
     "matchup": "Pittsburgh Steelers @ Chicago Bears",
@@ -3337,7 +3337,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482645"
+    "last_updated": "2025-09-02T10:09:58.637934"
   },
   {
     "matchup": "New England Patriots @ Cincinnati Bengals",
@@ -3357,7 +3357,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482665"
+    "last_updated": "2025-09-02T10:09:58.637951"
   },
   {
     "matchup": "New York Giants @ Detroit Lions",
@@ -3377,7 +3377,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482685"
+    "last_updated": "2025-09-02T10:09:58.637969"
   },
   {
     "matchup": "Minnesota Vikings @ Green Bay Packers",
@@ -3397,7 +3397,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482705"
+    "last_updated": "2025-09-02T10:09:58.637987"
   },
   {
     "matchup": "Indianapolis Colts @ Kansas City Chiefs",
@@ -3417,7 +3417,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482725"
+    "last_updated": "2025-09-02T10:09:58.638006"
   },
   {
     "matchup": "Seattle Seahawks @ Tennessee Titans",
@@ -3437,7 +3437,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482745"
+    "last_updated": "2025-09-02T10:09:58.638025"
   },
   {
     "matchup": "Jacksonville Jaguars @ Arizona Cardinals",
@@ -3457,7 +3457,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482767"
+    "last_updated": "2025-09-02T10:09:58.638047"
   },
   {
     "matchup": "Cleveland Browns @ Las Vegas Raiders",
@@ -3477,7 +3477,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482790"
+    "last_updated": "2025-09-02T10:09:58.638067"
   },
   {
     "matchup": "Atlanta Falcons @ New Orleans Saints",
@@ -3497,7 +3497,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482811"
+    "last_updated": "2025-09-02T10:09:58.638084"
   },
   {
     "matchup": "Philadelphia Eagles @ Dallas Cowboys",
@@ -3517,7 +3517,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482831"
+    "last_updated": "2025-09-02T10:09:58.638101"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Los Angeles Rams",
@@ -3537,7 +3537,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482853"
+    "last_updated": "2025-09-02T10:09:58.638118"
   },
   {
     "matchup": "Carolina Panthers @ San Francisco 49ers",
@@ -3557,7 +3557,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482874"
+    "last_updated": "2025-09-02T10:09:58.638136"
   },
   {
     "matchup": "Green Bay Packers @ Detroit Lions",
@@ -3576,8 +3576,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482893"
+    "bookmaker_count": 2,
+    "last_updated": "2025-09-02T10:09:58.638160"
   },
   {
     "matchup": "Kansas City Chiefs @ Dallas Cowboys",
@@ -3585,19 +3585,19 @@
     "home_team": "Dallas Cowboys",
     "sport": "NFL",
     "start_time": "2025-11-27T21:30:00Z",
-    "line": "\u00b15.8",
+    "line": "\u00b15.5",
     "total": "O/U 47.5",
     "moneyline": "No ML available",
-    "sharp_pct": "65%",
-    "public_pct": "35%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482922"
+    "last_updated": "2025-09-02T10:09:58.638185"
   },
   {
     "matchup": "Cincinnati Bengals @ Baltimore Ravens",
@@ -3616,8 +3616,8 @@
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482942"
+    "bookmaker_count": 2,
+    "last_updated": "2025-09-02T10:09:58.638210"
   },
   {
     "matchup": "Chicago Bears @ Philadelphia Eagles",
@@ -3625,19 +3625,19 @@
     "home_team": "Philadelphia Eagles",
     "sport": "NFL",
     "start_time": "2025-11-28T20:00:00Z",
-    "line": "\u00b17.0",
-    "total": "O/U 46.0",
+    "line": "\u00b16.8",
+    "total": "O/U 46.5",
     "moneyline": "No ML available",
-    "sharp_pct": "50%",
-    "public_pct": "50%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
-    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
+    "sharp_pct": "65%",
+    "public_pct": "35%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
+    "recommendation": "\u2705 GOOD VALUE - Some sharp movement detected",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Moderate sharp action on point spread. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.482970"
+    "last_updated": "2025-09-02T10:09:58.638237"
   },
   {
     "matchup": "Arizona Cardinals @ Tampa Bay Buccaneers",
@@ -3657,7 +3657,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.482990"
+    "last_updated": "2025-09-02T10:09:58.638260"
   },
   {
     "matchup": "Atlanta Falcons @ New York Jets",
@@ -3677,7 +3677,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483011"
+    "last_updated": "2025-09-02T10:09:58.638281"
   },
   {
     "matchup": "Los Angeles Rams @ Carolina Panthers",
@@ -3697,7 +3697,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483031"
+    "last_updated": "2025-09-02T10:09:58.638299"
   },
   {
     "matchup": "San Francisco 49ers @ Cleveland Browns",
@@ -3717,7 +3717,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483051"
+    "last_updated": "2025-09-02T10:09:58.638316"
   },
   {
     "matchup": "Houston Texans @ Indianapolis Colts",
@@ -3737,7 +3737,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483072"
+    "last_updated": "2025-09-02T10:09:58.638335"
   },
   {
     "matchup": "Jacksonville Jaguars @ Tennessee Titans",
@@ -3757,7 +3757,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483092"
+    "last_updated": "2025-09-02T10:09:58.638354"
   },
   {
     "matchup": "New Orleans Saints @ Miami Dolphins",
@@ -3777,7 +3777,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483116"
+    "last_updated": "2025-09-02T10:09:58.638373"
   },
   {
     "matchup": "Minnesota Vikings @ Seattle Seahawks",
@@ -3797,7 +3797,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483137"
+    "last_updated": "2025-09-02T10:09:58.638391"
   },
   {
     "matchup": "Buffalo Bills @ Pittsburgh Steelers",
@@ -3817,7 +3817,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483156"
+    "last_updated": "2025-09-02T10:09:58.638410"
   },
   {
     "matchup": "Las Vegas Raiders @ Los Angeles Chargers",
@@ -3837,7 +3837,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483177"
+    "last_updated": "2025-09-02T10:09:58.638428"
   },
   {
     "matchup": "Denver Broncos @ Washington Commanders",
@@ -3857,7 +3857,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483198"
+    "last_updated": "2025-09-02T10:09:58.638445"
   },
   {
     "matchup": "New York Giants @ New England Patriots",
@@ -3877,7 +3877,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483218"
+    "last_updated": "2025-09-02T10:09:58.638465"
   },
   {
     "matchup": "Dallas Cowboys @ Detroit Lions",
@@ -3897,7 +3897,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483239"
+    "last_updated": "2025-09-02T10:09:58.638484"
   },
   {
     "matchup": "Seattle Seahawks @ Atlanta Falcons",
@@ -3917,7 +3917,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483258"
+    "last_updated": "2025-09-02T10:09:58.638502"
   },
   {
     "matchup": "Pittsburgh Steelers @ Baltimore Ravens",
@@ -3937,7 +3937,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483278"
+    "last_updated": "2025-09-02T10:09:58.638520"
   },
   {
     "matchup": "Chicago Bears @ Green Bay Packers",
@@ -3957,7 +3957,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483297"
+    "last_updated": "2025-09-02T10:09:58.638537"
   },
   {
     "matchup": "Tennessee Titans @ Cleveland Browns",
@@ -3977,7 +3977,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483316"
+    "last_updated": "2025-09-02T10:09:58.638555"
   },
   {
     "matchup": "Indianapolis Colts @ Jacksonville Jaguars",
@@ -3997,7 +3997,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483337"
+    "last_updated": "2025-09-02T10:09:58.638572"
   },
   {
     "matchup": "Miami Dolphins @ New York Jets",
@@ -4017,7 +4017,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483358"
+    "last_updated": "2025-09-02T10:09:58.638593"
   },
   {
     "matchup": "Washington Commanders @ Minnesota Vikings",
@@ -4037,7 +4037,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483378"
+    "last_updated": "2025-09-02T10:09:58.638613"
   },
   {
     "matchup": "New Orleans Saints @ Tampa Bay Buccaneers",
@@ -4057,7 +4057,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483397"
+    "last_updated": "2025-09-02T10:09:58.638632"
   },
   {
     "matchup": "Denver Broncos @ Las Vegas Raiders",
@@ -4077,7 +4077,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483418"
+    "last_updated": "2025-09-02T10:09:58.638668"
   },
   {
     "matchup": "Los Angeles Rams @ Arizona Cardinals",
@@ -4097,7 +4097,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483438"
+    "last_updated": "2025-09-02T10:09:58.638688"
   },
   {
     "matchup": "Cincinnati Bengals @ Buffalo Bills",
@@ -4117,7 +4117,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483457"
+    "last_updated": "2025-09-02T10:09:58.638705"
   },
   {
     "matchup": "Houston Texans @ Kansas City Chiefs",
@@ -4137,7 +4137,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483478"
+    "last_updated": "2025-09-02T10:09:58.638721"
   },
   {
     "matchup": "Philadelphia Eagles @ Los Angeles Chargers",
@@ -4157,7 +4157,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483500"
+    "last_updated": "2025-09-02T10:09:58.638738"
   },
   {
     "matchup": "Atlanta Falcons @ Tampa Bay Buccaneers",
@@ -4177,7 +4177,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483520"
+    "last_updated": "2025-09-02T10:09:58.638755"
   },
   {
     "matchup": "Arizona Cardinals @ Houston Texans",
@@ -4197,7 +4197,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483542"
+    "last_updated": "2025-09-02T10:09:58.638772"
   },
   {
     "matchup": "Baltimore Ravens @ Cincinnati Bengals",
@@ -4217,7 +4217,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483562"
+    "last_updated": "2025-09-02T10:09:58.638789"
   },
   {
     "matchup": "Buffalo Bills @ New England Patriots",
@@ -4237,7 +4237,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483582"
+    "last_updated": "2025-09-02T10:09:58.638807"
   },
   {
     "matchup": "Cleveland Browns @ Chicago Bears",
@@ -4257,7 +4257,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483602"
+    "last_updated": "2025-09-02T10:09:58.638824"
   },
   {
     "matchup": "New York Jets @ Jacksonville Jaguars",
@@ -4277,7 +4277,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483622"
+    "last_updated": "2025-09-02T10:09:58.638841"
   },
   {
     "matchup": "Los Angeles Chargers @ Kansas City Chiefs",
@@ -4297,7 +4297,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483644"
+    "last_updated": "2025-09-02T10:09:58.638859"
   },
   {
     "matchup": "Las Vegas Raiders @ Philadelphia Eagles",
@@ -4317,7 +4317,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483665"
+    "last_updated": "2025-09-02T10:09:58.638876"
   },
   {
     "matchup": "Washington Commanders @ New York Giants",
@@ -4337,7 +4337,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483686"
+    "last_updated": "2025-09-02T10:09:58.638893"
   },
   {
     "matchup": "Carolina Panthers @ New Orleans Saints",
@@ -4357,7 +4357,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483707"
+    "last_updated": "2025-09-02T10:09:58.638912"
   },
   {
     "matchup": "Green Bay Packers @ Denver Broncos",
@@ -4377,7 +4377,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483728"
+    "last_updated": "2025-09-02T10:09:58.638930"
   },
   {
     "matchup": "Detroit Lions @ Los Angeles Rams",
@@ -4397,7 +4397,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483750"
+    "last_updated": "2025-09-02T10:09:58.638948"
   },
   {
     "matchup": "Indianapolis Colts @ Seattle Seahawks",
@@ -4417,7 +4417,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483770"
+    "last_updated": "2025-09-02T10:09:58.638966"
   },
   {
     "matchup": "Tennessee Titans @ San Francisco 49ers",
@@ -4437,7 +4437,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483790"
+    "last_updated": "2025-09-02T10:09:58.638982"
   },
   {
     "matchup": "Minnesota Vikings @ Dallas Cowboys",
@@ -4457,7 +4457,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483811"
+    "last_updated": "2025-09-02T10:09:58.639000"
   },
   {
     "matchup": "Miami Dolphins @ Pittsburgh Steelers",
@@ -4477,7 +4477,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483831"
+    "last_updated": "2025-09-02T10:09:58.639018"
   },
   {
     "matchup": "Los Angeles Rams @ Seattle Seahawks",
@@ -4497,7 +4497,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483851"
+    "last_updated": "2025-09-02T10:09:58.639036"
   },
   {
     "matchup": "Green Bay Packers @ Chicago Bears",
@@ -4505,19 +4505,19 @@
     "home_team": "Chicago Bears",
     "sport": "NFL",
     "start_time": "2025-12-20T18:00:00Z",
-    "line": "\u00b12.0",
+    "line": "\u00b12.5",
     "total": "O/U 45.5",
     "moneyline": "No ML available",
-    "sharp_pct": "75%",
-    "public_pct": "25%",
+    "sharp_pct": "50%",
+    "public_pct": "50%",
     "sharp_total_pct": "50%",
     "public_total_pct": "50%",
-    "recommendation": "\ud83d\udd25 SHARP PLAY - Line movement indicates professional money",
+    "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
     "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
-    "commentary": "Strong professional money detected on spread. Analysis based on live odds from 4 sources.",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.483879"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.639054"
   },
   {
     "matchup": "Philadelphia Eagles @ Washington Commanders",
@@ -4526,18 +4526,18 @@
     "sport": "NFL",
     "start_time": "2025-12-20T20:00:00Z",
     "line": "\u00b11.5",
-    "total": "O/U 48.0",
+    "total": "O/U 47.5",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
     "public_pct": "50%",
-    "sharp_total_pct": "60%",
-    "public_total_pct": "40%",
+    "sharp_total_pct": "50%",
+    "public_total_pct": "50%",
     "recommendation": "\ud83d\ude10 NEUTRAL - Consistent lines across books",
-    "total_recommendation": "\ud83d\udca1 Lean OVER/UNDER - Some movement",
-    "commentary": "Some professional total action. Analysis based on live odds from 4 sources.",
+    "total_recommendation": "\ud83d\ude10 Totals neutral - Consistent across books",
+    "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.483908"
+    "bookmaker_count": 1,
+    "last_updated": "2025-09-02T10:09:58.639073"
   },
   {
     "matchup": "New England Patriots @ Baltimore Ravens",
@@ -4557,7 +4557,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483944"
+    "last_updated": "2025-09-02T10:09:58.639091"
   },
   {
     "matchup": "Buffalo Bills @ Cleveland Browns",
@@ -4577,7 +4577,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483966"
+    "last_updated": "2025-09-02T10:09:58.639108"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
@@ -4597,7 +4597,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.483987"
+    "last_updated": "2025-09-02T10:09:58.639126"
   },
   {
     "matchup": "Los Angeles Chargers @ Dallas Cowboys",
@@ -4617,7 +4617,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484007"
+    "last_updated": "2025-09-02T10:09:58.639145"
   },
   {
     "matchup": "Kansas City Chiefs @ Tennessee Titans",
@@ -4637,7 +4637,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484027"
+    "last_updated": "2025-09-02T10:09:58.639165"
   },
   {
     "matchup": "Minnesota Vikings @ New York Giants",
@@ -4657,7 +4657,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484047"
+    "last_updated": "2025-09-02T10:09:58.639183"
   },
   {
     "matchup": "New York Jets @ New Orleans Saints",
@@ -4677,7 +4677,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484069"
+    "last_updated": "2025-09-02T10:09:58.639204"
   },
   {
     "matchup": "Atlanta Falcons @ Arizona Cardinals",
@@ -4697,7 +4697,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484089"
+    "last_updated": "2025-09-02T10:09:58.639241"
   },
   {
     "matchup": "Jacksonville Jaguars @ Denver Broncos",
@@ -4717,7 +4717,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484109"
+    "last_updated": "2025-09-02T10:09:58.639260"
   },
   {
     "matchup": "Pittsburgh Steelers @ Detroit Lions",
@@ -4737,7 +4737,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484129"
+    "last_updated": "2025-09-02T10:09:58.639278"
   },
   {
     "matchup": "Las Vegas Raiders @ Houston Texans",
@@ -4757,7 +4757,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484151"
+    "last_updated": "2025-09-02T10:09:58.639297"
   },
   {
     "matchup": "Cincinnati Bengals @ Miami Dolphins",
@@ -4777,7 +4777,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484171"
+    "last_updated": "2025-09-02T10:09:58.639315"
   },
   {
     "matchup": "San Francisco 49ers @ Indianapolis Colts",
@@ -4797,7 +4797,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484192"
+    "last_updated": "2025-09-02T10:09:58.639334"
   },
   {
     "matchup": "Dallas Cowboys @ Washington Commanders",
@@ -4805,8 +4805,8 @@
     "home_team": "Washington Commanders",
     "sport": "NFL",
     "start_time": "2025-12-25T18:01:00Z",
-    "line": "\u00b14.5",
-    "total": "O/U 49.5",
+    "line": "\u00b15.2",
+    "total": "O/U 49.2",
     "moneyline": "No ML available",
     "sharp_pct": "75%",
     "public_pct": "25%",
@@ -4816,8 +4816,8 @@
     "total_recommendation": "\ud83c\udfaf OVER/UNDER - Sharp total movement",
     "commentary": "Strong professional money detected on spread. Sharp money hitting totals. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.484221"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.639373"
   },
   {
     "matchup": "Detroit Lions @ Minnesota Vikings",
@@ -4825,7 +4825,7 @@
     "home_team": "Minnesota Vikings",
     "sport": "NFL",
     "start_time": "2025-12-25T21:30:00Z",
-    "line": "\u00b12.0",
+    "line": "\u00b12.2",
     "total": "O/U 47.5",
     "moneyline": "No ML available",
     "sharp_pct": "75%",
@@ -4836,8 +4836,8 @@
     "total_recommendation": "\ud83c\udfaf OVER/UNDER - Sharp total movement",
     "commentary": "Strong professional money detected on spread. Sharp money hitting totals. Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
-    "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.484251"
+    "bookmaker_count": 3,
+    "last_updated": "2025-09-02T10:09:58.639410"
   },
   {
     "matchup": "Denver Broncos @ Kansas City Chiefs",
@@ -4857,7 +4857,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 2,
-    "last_updated": "2025-08-28T23:51:49.484278"
+    "last_updated": "2025-09-02T10:09:58.639452"
   },
   {
     "matchup": "Arizona Cardinals @ Cincinnati Bengals",
@@ -4877,7 +4877,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484299"
+    "last_updated": "2025-09-02T10:09:58.639473"
   },
   {
     "matchup": "Baltimore Ravens @ Green Bay Packers",
@@ -4897,7 +4897,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484320"
+    "last_updated": "2025-09-02T10:09:58.639491"
   },
   {
     "matchup": "Seattle Seahawks @ Carolina Panthers",
@@ -4917,7 +4917,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484342"
+    "last_updated": "2025-09-02T10:09:58.639510"
   },
   {
     "matchup": "Pittsburgh Steelers @ Cleveland Browns",
@@ -4937,7 +4937,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484363"
+    "last_updated": "2025-09-02T10:09:58.639528"
   },
   {
     "matchup": "Houston Texans @ Los Angeles Chargers",
@@ -4957,7 +4957,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484384"
+    "last_updated": "2025-09-02T10:09:58.639548"
   },
   {
     "matchup": "Jacksonville Jaguars @ Indianapolis Colts",
@@ -4977,7 +4977,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484403"
+    "last_updated": "2025-09-02T10:09:58.639568"
   },
   {
     "matchup": "Tampa Bay Buccaneers @ Miami Dolphins",
@@ -4997,7 +4997,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484423"
+    "last_updated": "2025-09-02T10:09:58.639585"
   },
   {
     "matchup": "New England Patriots @ New York Jets",
@@ -5017,7 +5017,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484443"
+    "last_updated": "2025-09-02T10:09:58.639605"
   },
   {
     "matchup": "New Orleans Saints @ Tennessee Titans",
@@ -5037,7 +5037,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484463"
+    "last_updated": "2025-09-02T10:09:58.639624"
   },
   {
     "matchup": "Philadelphia Eagles @ Buffalo Bills",
@@ -5057,7 +5057,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484485"
+    "last_updated": "2025-09-02T10:09:58.639642"
   },
   {
     "matchup": "New York Giants @ Las Vegas Raiders",
@@ -5077,7 +5077,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484506"
+    "last_updated": "2025-09-02T10:09:58.639661"
   },
   {
     "matchup": "Chicago Bears @ San Francisco 49ers",
@@ -5097,7 +5097,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484526"
+    "last_updated": "2025-09-02T10:09:58.639678"
   },
   {
     "matchup": "Los Angeles Rams @ Atlanta Falcons",
@@ -5117,7 +5117,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484546"
+    "last_updated": "2025-09-02T10:09:58.639696"
   },
   {
     "matchup": "Arizona Cardinals @ Los Angeles Rams",
@@ -5137,7 +5137,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484566"
+    "last_updated": "2025-09-02T10:09:58.639717"
   },
   {
     "matchup": "New Orleans Saints @ Atlanta Falcons",
@@ -5145,7 +5145,7 @@
     "home_team": "Atlanta Falcons",
     "sport": "NFL",
     "start_time": "2026-01-04T18:00:00Z",
-    "line": "\u00b14.5",
+    "line": "\u00b15.5",
     "total": "No total available",
     "moneyline": "No ML available",
     "sharp_pct": "50%",
@@ -5157,7 +5157,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484585"
+    "last_updated": "2025-09-02T10:09:58.639732"
   },
   {
     "matchup": "Baltimore Ravens @ Pittsburgh Steelers",
@@ -5177,7 +5177,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484599"
+    "last_updated": "2025-09-02T10:09:58.639749"
   },
   {
     "matchup": "New York Jets @ Buffalo Bills",
@@ -5197,7 +5197,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484612"
+    "last_updated": "2025-09-02T10:09:58.639764"
   },
   {
     "matchup": "Carolina Panthers @ Tampa Bay Buccaneers",
@@ -5217,7 +5217,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484630"
+    "last_updated": "2025-09-02T10:09:58.639785"
   },
   {
     "matchup": "Detroit Lions @ Chicago Bears",
@@ -5237,7 +5237,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484644"
+    "last_updated": "2025-09-02T10:09:58.639802"
   },
   {
     "matchup": "Cleveland Browns @ Cincinnati Bengals",
@@ -5257,7 +5257,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484662"
+    "last_updated": "2025-09-02T10:09:58.639824"
   },
   {
     "matchup": "Dallas Cowboys @ New York Giants",
@@ -5277,7 +5277,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484675"
+    "last_updated": "2025-09-02T10:09:58.639838"
   },
   {
     "matchup": "Green Bay Packers @ Minnesota Vikings",
@@ -5297,7 +5297,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484693"
+    "last_updated": "2025-09-02T10:09:58.639859"
   },
   {
     "matchup": "Indianapolis Colts @ Houston Texans",
@@ -5317,7 +5317,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484706"
+    "last_updated": "2025-09-02T10:09:58.639872"
   },
   {
     "matchup": "Tennessee Titans @ Jacksonville Jaguars",
@@ -5337,7 +5337,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484724"
+    "last_updated": "2025-09-02T10:09:58.639911"
   },
   {
     "matchup": "Kansas City Chiefs @ Las Vegas Raiders",
@@ -5357,7 +5357,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484737"
+    "last_updated": "2025-09-02T10:09:58.639928"
   },
   {
     "matchup": "Miami Dolphins @ New England Patriots",
@@ -5377,7 +5377,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484751"
+    "last_updated": "2025-09-02T10:09:58.639943"
   },
   {
     "matchup": "Washington Commanders @ Philadelphia Eagles",
@@ -5397,7 +5397,7 @@
     "commentary": "Analysis based on live odds from 2 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484765"
+    "last_updated": "2025-09-02T10:09:58.639961"
   },
   {
     "matchup": "Seattle Seahawks @ San Francisco 49ers",
@@ -5417,7 +5417,7 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484782"
+    "last_updated": "2025-09-02T10:09:58.639981"
   },
   {
     "matchup": "Los Angeles Chargers @ Denver Broncos",
@@ -5437,6 +5437,6 @@
     "commentary": "Analysis based on live odds from 4 sources.",
     "confidence": "\ud83d\udd25 HIGH",
     "bookmaker_count": 1,
-    "last_updated": "2025-08-28T23:51:49.484801"
+    "last_updated": "2025-09-02T10:09:58.640000"
   }
 ]
