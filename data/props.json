@@ -13,7 +13,7 @@
     "commentary": "Good OVER value with 3.5% edge. Good confidence level. Monitor for line movement and injury reports.",
     "display_line": "275.5 Pass Yds",
     "confidence_display": "78/100",
-    "last_updated": "2025-09-03T21:15:48.463854"
+    "last_updated": "2025-09-03T22:01:36.253497"
   },
   {
     "player": "Christian McCaffrey",
@@ -29,7 +29,7 @@
     "commentary": "Strong OVER play with 13.2% model edge. High confidence recommendation. Monitor for line movement and injury reports.",
     "display_line": "85.5 Rush Yds",
     "confidence_display": "85/100",
-    "last_updated": "2025-09-03T21:15:48.463868"
+    "last_updated": "2025-09-03T22:01:36.253512"
   },
   {
     "player": "Travis Kelce",
@@ -45,7 +45,7 @@
     "commentary": "Strong OVER play with 10.5% model edge. High confidence recommendation. Monitor for line movement and injury reports.",
     "display_line": "75.5 Rec Yds",
     "confidence_display": "82/100",
-    "last_updated": "2025-09-03T21:15:48.463872"
+    "last_updated": "2025-09-03T22:01:36.253515"
   },
   {
     "player": "Stefon Diggs",
@@ -61,7 +61,7 @@
     "commentary": "Strong OVER play with 10.8% model edge. Good confidence level. Monitor for line movement and injury reports.",
     "display_line": "6.5 Rec",
     "confidence_display": "79/100",
-    "last_updated": "2025-09-03T21:15:48.463874"
+    "last_updated": "2025-09-03T22:01:36.253517"
   },
   {
     "player": "Lamar Jackson",
@@ -77,7 +77,7 @@
     "commentary": "Good OVER value with 5.4% edge. Good confidence level. Monitor for line movement and injury reports.",
     "display_line": "245.5 Pass Yds",
     "confidence_display": "73/100",
-    "last_updated": "2025-09-03T21:15:48.463877"
+    "last_updated": "2025-09-03T22:01:36.253519"
   },
   {
     "player": "Derrick Henry",
@@ -93,6 +93,6 @@
     "commentary": "Strong UNDER play with 11.8% model edge. Good confidence level. Monitor for line movement and injury reports.",
     "display_line": "78.5 Rush Yds",
     "confidence_display": "76/100",
-    "last_updated": "2025-09-03T21:15:48.463888"
+    "last_updated": "2025-09-03T22:01:36.253521"
   }
 ]
