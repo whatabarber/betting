@@ -514,19 +514,8 @@
                 return;
             }
 
-            // Filter out any "Unknown" or error entries
-            const validProps = propsData.filter(prop => 
-                prop && prop.player && prop.player !== "Unknown" && 
-                prop.player !== "Error loading data" && prop.player.trim() !== ""
-            );
-
-            if (validProps.length === 0) {
-                container.innerHTML = '<div class="loading">No valid NFL props available. Please refresh or check data connection.</div>';
-                return;
-            }
-
             // Sort props by confidence score and edge, then take top 6
-            const sortedProps = validProps
+            const sortedProps = propsData
                 .map(prop => ({
                     ...prop,
                     sortScore: (prop.confidence_score || 50) + Math.abs(prop.edge_pct || prop.edge || 0) * 2
@@ -639,32 +628,7 @@
         function refreshAnalytics() {
             const container = document.getElementById('analyticsContainer');
             
-            // Ensure we have data first
-            if (!propsData || propsData.length === 0) {
-                loadProps();
-            }
-            if (!gamesData || gamesData.length === 0) {
-                loadGames();
-            }
-            
-            // Create advanced analytics view with proper data checks
-            const validProps = propsData.filter(p => p && p.player && p.player !== "Unknown");
-            const validGames = gamesData.filter(g => g && g.matchup && !g.matchup.includes("Error"));
-            
-            const avgEdge = validProps.length > 0 ? 
-                (validProps.reduce((sum, p) => sum + Math.abs(p.edge_pct || p.edge || 0), 0) / validProps.length).toFixed(1) : '0';
-            
-            const successRate = validProps.length > 0 ? 
-                ((validProps.filter(p => (p.confidence_score || 50) >= 70).length / validProps.length) * 100).toFixed(1) : '0';
-            
-            const avgSharpPct = validGames.length > 0 ? 
-                (validGames.reduce((sum, g) => sum + (parseInt(g.sharp_pct?.replace('%', '')) || 50), 0) / validGames.length).toFixed(1) : '50';
-            
-            const publicFadeSpots = validGames.filter(g => parseInt(g.sharp_pct?.replace('%', '')) >= 65).length;
-            const smashPlays = validProps.filter(p => Math.abs(p.edge_pct || p.edge || 0) >= 10).length;
-            const sharpGames70 = validGames.filter(g => parseInt(g.sharp_pct?.replace('%', '')) >= 70).length;
-            const highConfProps = validProps.filter(p => (p.confidence_score || 50) >= 80).length;
-            
+            // Create advanced analytics view
             const analyticsHTML = `
                 <div style="display: grid; gap: 30px; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
                     <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
@@ -675,19 +639,13 @@
                             <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
                                 <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Average Edge</div>
                                 <div style="font-size: 1.5rem; font-weight: bold; color: #22c55e;">
-                                    ${avgEdge}%
+                                    ${propsData.length > 0 ? (propsData.reduce((sum, p) => sum + Math.abs(p.edge_pct || p.edge || 0), 0) / propsData.length).toFixed(1) : '0'}%
                                 </div>
                             </div>
                             <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
-                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">High Confidence Rate</div>
+                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Success Rate</div>
                                 <div style="font-size: 1.5rem; font-weight: bold; color: #3b82f6;">
-                                    ${successRate}%
-                                </div>
-                            </div>
-                            <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
-                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Active Props</div>
-                                <div style="font-size: 1.5rem; font-weight: bold; color: #667eea;">
-                                    ${validProps.length}
+                                    ${propsData.length > 0 ? ((propsData.filter(p => (p.confidence_score || 50) >= 70).length / propsData.length) * 100).toFixed(1) : '0'}%
                                 </div>
                             </div>
                         </div>
@@ -701,12 +659,37 @@
                             <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
                                 <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Average Sharp %</div>
                                 <div style="font-size: 1.5rem; font-weight: bold; color: #f59e0b;">
-                                    ${avgSharpPct}%
+                                    ${gamesData.length > 0 ? (gamesData.reduce((sum, g) => sum + (parseInt(g.sharp_pct?.replace('%', '')) || 50), 0) / gamesData.length).toFixed(1) : '50'}%
                                 </div>
                             </div>
                             <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
                                 <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Public Fade Spots</div>
-                                <div style="font-size: 1.5rem; font-weight: bold; color: #ef4
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #ef4444;">
+                                    ${gamesData.filter(g => parseInt(g.sharp_pct?.replace('%', '')) >= 65).length}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">🚀 Key Insights</h3>
+                    <div style="display: grid; gap: 15px;">
+                        <div style="padding: 15px; background: linear-gradient(135deg, #22c55e, #16a34a); color: white; border-radius: 8px;">
+                            💡 Model is identifying strong edges in player props with ${propsData.filter(p => Math.abs(p.edge_pct || p.edge || 0) >= 10).length} SMASH plays available
+                        </div>
+                        <div style="padding: 15px; background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; border-radius: 8px;">
+                            📈 Sharp money is heavily backing ${gamesData.filter(g => parseInt(g.sharp_pct?.replace('%', '')) >= 70).length} games with 70%+ professional action
+                        </div>
+                        <div style="padding: 15px; background: linear-gradient(135deg, #f59e0b, #d97706); color: white; border-radius: 8px;">
+                            ⚡ Current market conditions showing ${propsData.filter(p => (p.confidence_score || 50) >= 80).length} high-confidence opportunities
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = analyticsHTML;
+        }
 
         function updateStats() {
             const smashPlays = propsData.filter(p => 
