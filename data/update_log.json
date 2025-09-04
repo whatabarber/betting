@@ -666,5 +666,27 @@
       "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pp1\\data"
     },
     "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2025-09-03T22:01:52.999997",
+    "results": {
+      "prizepicks": {
+        "success": true,
+        "error": null,
+        "props_count": 6
+      },
+      "bovada": {
+        "success": true,
+        "error": null,
+        "games_count": 272
+      },
+      "github": {
+        "success": false,
+        "error": "Failed to push to GitHub"
+      },
+      "total_runtime": 20.45,
+      "data_path": "C:\\Users\\yungb\\OneDrive\\Desktop\\pp1\\data"
+    },
+    "status": "SUCCESS"
   }
 ]
