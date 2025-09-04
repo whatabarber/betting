@@ -74,14 +74,73 @@
             color: #666;
             font-size: 0.9rem;
         }
-        
-        .section {
+
+        /* Tab Navigation Styles */
+        .tab-container {
             background: rgba(255, 255, 255, 0.95);
-            padding: 30px;
-            margin-bottom: 30px;
             border-radius: 15px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             backdrop-filter: blur(10px);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .tab-nav {
+            display: flex;
+            background: #f8fafc;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .tab-button {
+            flex: 1;
+            padding: 20px;
+            background: transparent;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #666;
+            position: relative;
+        }
+
+        .tab-button:hover {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+        }
+
+        .tab-button.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: #5a6fd8;
+        }
+
+        .tab-content {
+            padding: 30px;
+            min-height: 400px;
+        }
+
+        .tab-pane {
+            display: none;
+        }
+
+        .tab-pane.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
         .section-header {
@@ -261,6 +320,17 @@
             text-align: center;
             margin-top: 20px;
         }
+
+        .top-plays-header {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
         
         @media (max-width: 768px) {
             .container {
@@ -275,8 +345,16 @@
                 grid-template-columns: 1fr;
             }
             
-            .section {
+            .tab-content {
                 padding: 20px;
+            }
+
+            .tab-nav {
+                flex-direction: column;
+            }
+
+            .tab-button {
+                padding: 15px;
             }
         }
     </style>
@@ -311,27 +389,61 @@
             </div>
         </div>
 
-        <div class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    🏈 NFL PrizePicks - AI Analysis
-                </h2>
-                <button class="refresh-btn" onclick="loadProps()">🔄 Refresh</button>
+        <div class="tab-container">
+            <div class="tab-nav">
+                <button class="tab-button active" onclick="switchTab('prizepicks')">
+                    🏈 NFL PrizePicks
+                </button>
+                <button class="tab-button" onclick="switchTab('sharpgames')">
+                    📈 Sharp Money Games
+                </button>
+                <button class="tab-button" onclick="switchTab('analytics')">
+                    📊 Advanced Analytics
+                </button>
             </div>
-            <div id="propsContainer">
-                <div class="loading">Loading NFL props...</div>
-            </div>
-        </div>
 
-        <div class="section">
-            <div class="section-header">
-                <h2 class="section-title">
-                    📈 Sharp Money Game Analysis
-                </h2>
-                <button class="refresh-btn" onclick="loadGames()">🔄 Refresh</button>
-            </div>
-            <div id="gamesContainer">
-                <div class="loading">Loading game data...</div>
+            <div class="tab-content">
+                <!-- PrizePicks Tab -->
+                <div id="prizepicks" class="tab-pane active">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            🏈 NFL PrizePicks - AI Analysis
+                        </h2>
+                        <button class="refresh-btn" onclick="loadProps()">🔄 Refresh</button>
+                    </div>
+                    <div class="top-plays-header">
+                        🎯 TOP 6 PLAYS - Highest Confidence & Edge
+                    </div>
+                    <div id="propsContainer">
+                        <div class="loading">Loading NFL props...</div>
+                    </div>
+                </div>
+
+                <!-- Sharp Games Tab -->
+                <div id="sharpgames" class="tab-pane">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            📈 Sharp Money Game Analysis
+                        </h2>
+                        <button class="refresh-btn" onclick="loadGames()">🔄 Refresh</button>
+                    </div>
+                    <div id="gamesContainer">
+                        <div class="loading">Loading game data...</div>
+                    </div>
+                </div>
+
+                <!-- Analytics Tab -->
+                <div id="analytics" class="tab-pane">
+                    <div class="section-header">
+                        <h2 class="section-title">
+                            📊 Advanced Analytics
+                        </h2>
+                        <button class="refresh-btn" onclick="refreshAnalytics()">🔄 Refresh</button>
+                    </div>
+                    <div id="analyticsContainer">
+                        <div class="loading">Loading advanced analytics...</div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -343,6 +455,16 @@
     <script>
         let propsData = [];
         let gamesData = [];
+
+        function switchTab(tabName) {
+            // Remove active class from all tab buttons and panes
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+            
+            // Add active class to clicked button and corresponding pane
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
 
         async function loadProps() {
             try {
@@ -392,8 +514,16 @@
                 return;
             }
 
-            const propsHTML = propsData.map(prop => {
-                // Handle different prop data formats
+            // Sort props by confidence score and edge, then take top 6
+            const sortedProps = propsData
+                .map(prop => ({
+                    ...prop,
+                    sortScore: (prop.confidence_score || 50) + Math.abs(prop.edge_pct || prop.edge || 0) * 2
+                }))
+                .sort((a, b) => b.sortScore - a.sortScore)
+                .slice(0, 6);
+
+            const propsHTML = sortedProps.map((prop, index) => {
                 const player = prop.player || 'Unknown Player';
                 const line = prop.display_line || prop.line || 'N/A';
                 const modelProjection = prop.model_projection || prop.model || 'N/A';
@@ -405,10 +535,13 @@
                 const edgeClass = edge > 0 ? 'edge-positive' : 'edge-negative';
                 const confidenceClass = getConfidenceClass(confidence);
                 
+                // Add rank indicator for top plays
+                const rankEmoji = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
+                
                 return `
                     <div class="prop-card">
                         <div class="prop-header">
-                            <div class="player-name">${player}</div>
+                            <div class="player-name">${rankEmoji} ${player}</div>
                             <div class="confidence-badge ${confidenceClass}">
                                 ${confidence}/100
                             </div>
@@ -462,7 +595,7 @@
                             <th>🏈 Matchup</th>
                             <th>📊 Line</th>
                             <th>💰 Sharp %</th>
-                            <th>👥 Public %</th>
+                            <th>💥 Public %</th>
                             <th>🎯 Total</th>
                             <th>📈 Recommendation</th>
                             <th>💬 Analysis</th>
@@ -492,8 +625,73 @@
             container.innerHTML = gamesHTML;
         }
 
+        function refreshAnalytics() {
+            const container = document.getElementById('analyticsContainer');
+            
+            // Create advanced analytics view
+            const analyticsHTML = `
+                <div style="display: grid; gap: 30px; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                    <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #667eea; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            📊 Prop Betting Trends
+                        </h3>
+                        <div style="display: grid; gap: 15px;">
+                            <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
+                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Average Edge</div>
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #22c55e;">
+                                    ${propsData.length > 0 ? (propsData.reduce((sum, p) => sum + Math.abs(p.edge_pct || p.edge || 0), 0) / propsData.length).toFixed(1) : '0'}%
+                                </div>
+                            </div>
+                            <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
+                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Success Rate</div>
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #3b82f6;">
+                                    ${propsData.length > 0 ? ((propsData.filter(p => (p.confidence_score || 50) >= 70).length / propsData.length) * 100).toFixed(1) : '0'}%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <h3 style="color: #667eea; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            🎯 Sharp Money Insights
+                        </h3>
+                        <div style="display: grid; gap: 15px;">
+                            <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
+                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Average Sharp %</div>
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #f59e0b;">
+                                    ${gamesData.length > 0 ? (gamesData.reduce((sum, g) => sum + (parseInt(g.sharp_pct?.replace('%', '')) || 50), 0) / gamesData.length).toFixed(1) : '50'}%
+                                </div>
+                            </div>
+                            <div style="padding: 15px; background: #f8fafc; border-radius: 8px;">
+                                <div style="font-size: 0.9rem; color: #666; margin-bottom: 5px;">Public Fade Spots</div>
+                                <div style="font-size: 1.5rem; font-weight: bold; color: #ef4444;">
+                                    ${gamesData.filter(g => parseInt(g.sharp_pct?.replace('%', '')) >= 65).length}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #667eea; margin-bottom: 20px;">🚀 Key Insights</h3>
+                    <div style="display: grid; gap: 15px;">
+                        <div style="padding: 15px; background: linear-gradient(135deg, #22c55e, #16a34a); color: white; border-radius: 8px;">
+                            💡 Model is identifying strong edges in player props with ${propsData.filter(p => Math.abs(p.edge_pct || p.edge || 0) >= 10).length} SMASH plays available
+                        </div>
+                        <div style="padding: 15px; background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; border-radius: 8px;">
+                            📈 Sharp money is heavily backing ${gamesData.filter(g => parseInt(g.sharp_pct?.replace('%', '')) >= 70).length} games with 70%+ professional action
+                        </div>
+                        <div style="padding: 15px; background: linear-gradient(135deg, #f59e0b, #d97706); color: white; border-radius: 8px;">
+                            ⚡ Current market conditions showing ${propsData.filter(p => (p.confidence_score || 50) >= 80).length} high-confidence opportunities
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = analyticsHTML;
+        }
+
         function updateStats() {
-            // Update prop stats
             const smashPlays = propsData.filter(p => 
                 (p.recommendation && p.recommendation.includes('SMASH')) || 
                 Math.abs(p.edge_pct || p.edge || 0) >= 10
@@ -503,7 +701,6 @@
                 (p.confidence_score || 50) >= 70
             ).length;
             
-            // Update game stats  
             const sharpGames = gamesData.filter(g => 
                 parseInt(g.sharp_pct?.replace('%', '')) >= 65
             ).length;
@@ -513,7 +710,6 @@
             document.getElementById('totalProps').textContent = propsData.length;
             document.getElementById('sharpGames').textContent = sharpGames;
             
-            // Update timestamp
             document.getElementById('lastUpdate').textContent = 
                 `Last updated: ${new Date().toLocaleString()}`;
         }
@@ -552,16 +748,11 @@
             }
         }
 
-        // Auto-refresh every 5 minutes
-        setInterval(() => {
-            loadProps();
-            loadGames();
-        }, 300000);
-
         // Initial load
         window.addEventListener('load', () => {
             loadProps();
             loadGames();
+            refreshAnalytics();
         });
     </script>
 </body>
