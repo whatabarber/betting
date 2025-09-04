@@ -179,7 +179,7 @@
         .props-grid {
             display: grid;
             gap: 20px;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         }
         
         .prop-card {
@@ -412,7 +412,7 @@
                         <button class="refresh-btn" onclick="loadProps()">🔄 Refresh</button>
                     </div>
                     <div class="top-plays-header">
-                        🎯 TOP PLAYS - Highest Confidence & Edge
+                        🎯 TOP 15 PLAYS - Highest Confidence & Edge
                     </div>
                     <div id="propsContainer">
                         <div class="loading">Loading NFL props...</div>
@@ -514,14 +514,14 @@
                 return;
             }
 
-            // Sort props by confidence score and edge, then take top 12
+            // Sort props by confidence score and edge, then take top 15
             const sortedProps = propsData
                 .map(prop => ({
                     ...prop,
                     sortScore: (prop.confidence_score || 50) + Math.abs(prop.edge_pct || prop.edge || 0) * 2
                 }))
                 .sort((a, b) => b.sortScore - a.sortScore)
-                .slice(0, 12);
+                .slice(0, 15);
 
             const propsHTML = sortedProps.map((prop, index) => {
                 const player = prop.player || 'Unknown Player';
